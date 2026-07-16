@@ -1,0 +1,27 @@
+{
+    "totalMB":  65.52,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\hdxdellcsmb2018.inf_amd64_aa372b9dba64ac49",
+    "files":  [
+                  {
+                      "name":  "hdxdellcsmb2018.inf",
+                      "size":  105238
+                  },
+                  {
+                      "name":  "hdxdellcsmb2018.PNF",
+                      "size":  246076
+                  },
+                  {
+                      "name":  "HDXRT.CAT",
+                      "size":  356047
+                  },
+                  {
+                      "name":  "RTAIODAT.DAT",
+                      "size":  61334035
+                  },
+                  {
+                      "name":  "RTKVHD64.sys",
+                      "size":  6666192
+                  }
+              ],
+    "driverver":  "12/27/2024 6.0.9780.1"
+}
