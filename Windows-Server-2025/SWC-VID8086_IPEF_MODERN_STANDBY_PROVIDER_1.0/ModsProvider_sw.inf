@@ -1,0 +1,113 @@
+;-------------------------------------------------------------------------------
+; INTEL CONFIDENTIAL
+;
+; Copyright (c) 2023-2024 Intel Corporation All Rights Reserved 
+;
+; The source code contained or described herein and all documents related to 
+; the source code ("Material") are owned by Intel Corporation or its suppliers 
+; or licensors. Title to the Material remains with Intel Corporation or its 
+; suppliers and licensors. The Material contains trade secrets and proprietary 
+; and confidential information of Intel or its suppliers and licensors. The 
+; Material is protected by worldwide copyright and trade secret laws and treaty 
+; provisions. No part of the Material may be used, copied, reproduced, 
+; modified, published, uploaded, posted, transmitted, distributed, or 
+; disclosed in any way without Intel's prior express written permission.
+;
+; No license under any patent, copyright, trade secret or other intellectual 
+; property right is granted to or conferred upon you by disclosure or delivery 
+; of the Materials, either expressly, by implication, inducement, estoppel or 
+; otherwise. Any license under such intellectual property rights must be 
+; expressed and approved by Intel in writing.
+;------------------------------------------------------------------------------
+
+[Version] 
+Signature = "$WINDOWS NT$" 
+Class = SoftwareComponent
+ClassGuid = {5c4c3332-344d-483c-8739-259e934c9cc8}
+Provider = %MfgName% 
+CatalogFile = ModsProvider_sw.cat
+DriverVer = 01/17/2026,03.04.1005.0
+PnpLockDown = 1
+
+;----------------------------------------------------------------------
+; File Information
+;----------------------------------------------------------------------
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+ModsProvider.dll = 1
+DevStackLib.dll = 1
+AdaptiveHibernateErrorInjection.json = 1
+AdaptiveHibernateSettings.json = 1
+SleepStudyReportGenerator.bat = 1
+
+
+[DestinationDirs]
+IpfEfProvider_CopyFiles = 13
+;IpfConfigCopyFiles = 13,"Dependencies"
+;IpfConfigCopyFiles = 24,"Program Files\Intel Corporation\Intel(R)Modern Standby Provider"
+
+
+;-------------------------------------------------------------------------------
+; Manufacturer and Models Section
+;-------------------------------------------------------------------------------
+[Manufacturer]
+%MfgName% = MfgName,NTamd64.10.0...17763
+
+[MfgName.NTamd64.10.0...17763]
+%FriendlyName% = IpfEfProviderInstall, SWC\%ProviderComponent%
+
+;------------------------------------------------------------------------------
+; Install Sections 
+;------------------------------------------------------------------------------
+[IpfEfProviderInstall.NTamd64]
+CopyFiles = IpfEfProvider_CopyFiles
+AddReg = IpfEfProvider_AddReg
+
+[IpfEfProvider_CopyFiles]
+ModsProvider.dll
+DevStackLib.dll
+AdaptiveHibernateErrorInjection.json
+AdaptiveHibernateSettings.json
+SleepStudyReportGenerator.bat
+
+;[IpfConfigCopyFiles]
+;AdaptiveHibernateErrorInjection.json
+;AdaptiveHibernateSettings.json
+;SleepStudyReportGenerator.bat
+
+[IpfEfProvider_AddReg]
+HKR,,"MODSInstallPath",,%13%
+
+;-------------------------------------------------------------------------------
+; Install Services Section
+;-------------------------------------------------------------------------------
+[IpfEfProviderInstall.NTAMD64.Services]
+AddService = ,2
+
+;-------------------------------------------------------------------------------
+; Install Interfaces Section
+;-------------------------------------------------------------------------------
+[IpfEfProviderInstall.NTamd64.Interfaces]
+AddInterface = %ProviderInterface%,,IpfEfProviderInstallInterface,0
+
+[IpfEfProviderInstallInterface]
+AddReg = IpfEfProviderInstallInterface_AddReg
+
+[IpfEfProviderInstallInterface_AddReg]
+HKR,,"ProviderDir",,%13%
+HKR,,"ProviderPackages",,%ProviderList%
+
+
+;----------------------------------------------------------------------
+; Strings and Constants
+;----------------------------------------------------------------------
+[Strings]
+ProviderInterface = "{73FDD548-3C00-4279-B021-D0655F0B1E41}"
+MfgName = "Intel"
+DiskName = "Intel(R) Modern Standby IPF Extension Provider"
+FriendlyName = "Intel(R) Modern Standby IPF Extension Provider"
+IpfEfProviderDescription = "Intel(R) Modern Standby IPF Extension Provider"
+ProviderComponent = "VID8086_IPEF_MODERN_STANDBY_PROVIDER_1.0"
+ProviderList = "ModsProvider.dll"
