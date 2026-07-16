@@ -1,0 +1,35 @@
+{
+    "totalMB":  2.21,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\modsprovider_sw.inf_amd64_fc7b0b8d524470a8",
+    "files":  [
+                  {
+                      "name":  "AdaptiveHibernateErrorInjection.json",
+                      "size":  71
+                  },
+                  {
+                      "name":  "AdaptiveHibernateSettings.json",
+                      "size":  89
+                  },
+                  {
+                      "name":  "DevStackLib.dll",
+                      "size":  532264
+                  },
+                  {
+                      "name":  "ModsProvider.dll",
+                      "size":  1763112
+                  },
+                  {
+                      "name":  "ModsProvider_sw.cat",
+                      "size":  13497
+                  },
+                  {
+                      "name":  "ModsProvider_sw.inf",
+                      "size":  4441
+                  },
+                  {
+                      "name":  "SleepStudyReportGenerator.bat",
+                      "size":  271
+                  }
+              ],
+    "driverver":  "01/17/2026 3.4.1005.0"
+}
