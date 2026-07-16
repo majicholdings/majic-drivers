@@ -1,0 +1,8 @@
+DriverVer=12/27/2024 6.0.9780.1
+Provider=Realtek Semiconductor Corp.
+Class=MEDIA
+Published=oem61.inf
+Original=hdxdellcsmb2018.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\hdxdellcsmb2018.inf_amd64_aa372b9dba64ac49
+PackageMB=65.52
+CachedUtc=2026-07-16T08:31:19.8491620Z
