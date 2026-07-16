@@ -1,0 +1,8 @@
+DriverVer=07/18/1968 10.1.45.10
+Provider=INTEL
+Class=System
+Published=oem13.inf
+Original=alderlakesystem.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\alderlakesystem.inf_amd64_453df4f61faa9f59
+PackageMB=0.03
+CachedUtc=2026-07-16T09:00:24.8036768Z
