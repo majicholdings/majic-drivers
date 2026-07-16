@@ -1,0 +1,19 @@
+{
+    "totalMB":  0.23,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i2c_adl.inf_amd64_bf2893ea319d70a7",
+    "files":  [
+                  {
+                      "name":  "iaLPSS2_I2C_ADL.cat",
+                      "size":  15775
+                  },
+                  {
+                      "name":  "iaLPSS2_I2C_ADL.inf",
+                      "size":  13242
+                  },
+                  {
+                      "name":  "iaLPSS2_I2C_ADL.sys",
+                      "size":  212944
+                  }
+              ],
+    "driverver":  "07/30/2025 30.100.2531.31"
+}
