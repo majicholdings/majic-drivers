@@ -1,0 +1,4 @@
+{
+	"AdaptiveHibernateReqType": "GET",
+	"Comments": "Request type can be GET/SET/FIX"
+}
