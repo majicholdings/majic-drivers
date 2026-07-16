@@ -1,0 +1,719 @@
+{
+    "totalMB":  2253.15,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_ea3add6a86481654",
+    "files":  [
+                  {
+                      "name":  "clangFEWrapper.dll",
+                      "size":  41404136
+                  },
+                  {
+                      "name":  "ControlLib.dll",
+                      "size":  324240
+                  },
+                  {
+                      "name":  "ControlLib32.dll",
+                      "size":  270512
+                  },
+                  {
+                      "name":  "cpa_32.vp",
+                      "size":  1125
+                  },
+                  {
+                      "name":  "cpa_64.vp",
+                      "size":  1125
+                  },
+                  {
+                      "name":  "cp_resources.bin",
+                      "size":  2572396
+                  },
+                  {
+                      "name":  "c_32.cpa",
+                      "size":  1361159
+                  },
+                  {
+                      "name":  "c_64.cpa",
+                      "size":  1376256
+                  },
+                  {
+                      "name":  "dev_32.vp",
+                      "size":  57143
+                  },
+                  {
+                      "name":  "dev_64.vp",
+                      "size":  56359
+                  },
+                  {
+                      "name":  "DnnlPlugin.dll",
+                      "size":  19638192
+                  },
+                  {
+                      "name":  "dxg_on_android.cab",
+                      "size":  54876830
+                  },
+                  {
+                      "name":  "enctools32.dll",
+                      "size":  7896096
+                  },
+                  {
+                      "name":  "enctools64.dll",
+                      "size":  9045168
+                  },
+                  {
+                      "name":  "iga32.dll",
+                      "size":  2886536
+                  },
+                  {
+                      "name":  "iga64.dll",
+                      "size":  3581248
+                  },
+                  {
+                      "name":  "igc32.dll",
+                      "size":  78861072
+                  },
+                  {
+                      "name":  "igc64.dll",
+                      "size":  88276504
+                  },
+                  {
+                      "name":  "igd10iumd32.dll",
+                      "size":  5347416
+                  },
+                  {
+                      "name":  "igd10iumd64.dll",
+                      "size":  5485528
+                  },
+                  {
+                      "name":  "igd10mg32.dll",
+                      "size":  1504944
+                  },
+                  {
+                      "name":  "igd10mg64.dll",
+                      "size":  1584288
+                  },
+                  {
+                      "name":  "igd10um32xe.dll",
+                      "size":  17429216
+                  },
+                  {
+                      "name":  "igd10um64xe.dll",
+                      "size":  18377784
+                  },
+                  {
+                      "name":  "igd10umt32xe.dll",
+                      "size":  27954416
+                  },
+                  {
+                      "name":  "igd10umt64xe.dll",
+                      "size":  29350248
+                  },
+                  {
+                      "name":  "igd11dxva32.dll",
+                      "size":  3852328
+                  },
+                  {
+                      "name":  "igd11dxva64.dll",
+                      "size":  4935416
+                  },
+                  {
+                      "name":  "igd12dxva32.dll",
+                      "size":  3052024
+                  },
+                  {
+                      "name":  "igd12dxva64.dll",
+                      "size":  3579688
+                  },
+                  {
+                      "name":  "igd12um32xe2.dll",
+                      "size":  11370656
+                  },
+                  {
+                      "name":  "igd12um32xeh.dll",
+                      "size":  32851664
+                  },
+                  {
+                      "name":  "igd12um32xel.dll",
+                      "size":  10939904
+                  },
+                  {
+                      "name":  "igd12um64xe2.dll",
+                      "size":  40839752
+                  },
+                  {
+                      "name":  "igd12um64xeh.dll",
+                      "size":  61699512
+                  },
+                  {
+                      "name":  "igd12um64xel.dll",
+                      "size":  37395544
+                  },
+                  {
+                      "name":  "igd12umd32.dll",
+                      "size":  380296
+                  },
+                  {
+                      "name":  "igd12umd64.dll",
+                      "size":  462440
+                  },
+                  {
+                      "name":  "igd9dxva32.dll",
+                      "size":  23565520
+                  },
+                  {
+                      "name":  "igd9dxva64.dll",
+                      "size":  25112592
+                  },
+                  {
+                      "name":  "igd9trinity32.dll",
+                      "size":  27330680
+                  },
+                  {
+                      "name":  "igd9trinity64.dll",
+                      "size":  28747920
+                  },
+                  {
+                      "name":  "igdail32.dll",
+                      "size":  258768
+                  },
+                  {
+                      "name":  "igdail64.dll",
+                      "size":  284344
+                  },
+                  {
+                      "name":  "igdde32.dll",
+                      "size":  342568
+                  },
+                  {
+                      "name":  "igdde64.dll",
+                      "size":  415064
+                  },
+                  {
+                      "name":  "igddxvacommon32.dll",
+                      "size":  21978344
+                  },
+                  {
+                      "name":  "igddxvacommon64.dll",
+                      "size":  23298000
+                  },
+                  {
+                      "name":  "igdext32.dll",
+                      "size":  456080
+                  },
+                  {
+                      "name":  "igdext64.dll",
+                      "size":  548568
+                  },
+                  {
+                      "name":  "igdfcl32.dll",
+                      "size":  1117344
+                  },
+                  {
+                      "name":  "igdfcl64.dll",
+                      "size":  1159064
+                  },
+                  {
+                      "name":  "igdgmm2_32.dll",
+                      "size":  300424
+                  },
+                  {
+                      "name":  "igdgmm2_64.dll",
+                      "size":  347288
+                  },
+                  {
+                      "name":  "igdgmm32.dll",
+                      "size":  4415128
+                  },
+                  {
+                      "name":  "igdgmm64.dll",
+                      "size":  6102488
+                  },
+                  {
+                      "name":  "igdgmmstaging_32.dll",
+                      "size":  110240
+                  },
+                  {
+                      "name":  "igdgmmstaging_64.dll",
+                      "size":  129112
+                  },
+                  {
+                      "name":  "igdinfo32.dll",
+                      "size":  142744
+                  },
+                  {
+                      "name":  "igdinfo64.dll",
+                      "size":  167560
+                  },
+                  {
+                      "name":  "igdkmdn64.sys",
+                      "size":  62180112
+                  },
+                  {
+                      "name":  "igdlh.cat",
+                      "size":  14153593
+                  },
+                  {
+                      "name":  "igdmd32.dll",
+                      "size":  17479064
+                  },
+                  {
+                      "name":  "igdmd64.dll",
+                      "size":  23168208
+                  },
+                  {
+                      "name":  "igdml32.dll",
+                      "size":  1398176
+                  },
+                  {
+                      "name":  "igdml64.dll",
+                      "size":  1753480
+                  },
+                  {
+                      "name":  "igdrcl32.dll",
+                      "size":  19145936
+                  },
+                  {
+                      "name":  "igdrcl64.dll",
+                      "size":  21154000
+                  },
+                  {
+                      "name":  "igdumdim32.dll",
+                      "size":  2941056
+                  },
+                  {
+                      "name":  "igdumdim64.dll",
+                      "size":  2802456
+                  },
+                  {
+                      "name":  "igfx11cmrt32.dll",
+                      "size":  183864
+                  },
+                  {
+                      "name":  "igfx11cmrt64.dll",
+                      "size":  227440
+                  },
+                  {
+                      "name":  "igfxcmrt32.dll",
+                      "size":  186400
+                  },
+                  {
+                      "name":  "igfxcmrt64.dll",
+                      "size":  229576
+                  },
+                  {
+                      "name":  "iglhxa64.cpa",
+                      "size":  1376256
+                  },
+                  {
+                      "name":  "iglhxa64.vp",
+                      "size":  1125
+                  },
+                  {
+                      "name":  "iglhxc64.vp",
+                      "size":  44194
+                  },
+                  {
+                      "name":  "iglhxc64_dev.vp",
+                      "size":  43214
+                  },
+                  {
+                      "name":  "iglhxg64.vp",
+                      "size":  43760
+                  },
+                  {
+                      "name":  "iglhxg64_dev.vp",
+                      "size":  43732
+                  },
+                  {
+                      "name":  "iglhxo64.vp",
+                      "size":  42513
+                  },
+                  {
+                      "name":  "iglhxo64_dev.vp",
+                      "size":  43143
+                  },
+                  {
+                      "name":  "iglhxsn64.vp2",
+                      "size":  11900
+                  },
+                  {
+                      "name":  "igmlsblob64xe2.dll",
+                      "size":  8499424
+                  },
+                  {
+                      "name":  "igmlsblob64xeh.dll",
+                      "size":  44320072
+                  },
+                  {
+                      "name":  "igmlsblob64xel.dll",
+                      "size":  13320392
+                  },
+                  {
+                      "name":  "igvk32.dll",
+                      "size":  25648680
+                  },
+                  {
+                      "name":  "igvk32.json",
+                      "size":  141
+                  },
+                  {
+                      "name":  "igvk64.dll",
+                      "size":  26756376
+                  },
+                  {
+                      "name":  "igvk64.json",
+                      "size":  141
+                  },
+                  {
+                      "name":  "igvkMedia32.dll",
+                      "size":  1175504
+                  },
+                  {
+                      "name":  "igvkMedia64.dll",
+                      "size":  1482416
+                  },
+                  {
+                      "name":  "igxe2lpgicd32.dll",
+                      "size":  19579072
+                  },
+                  {
+                      "name":  "igxe2lpgicd64.dll",
+                      "size":  23412416
+                  },
+                  {
+                      "name":  "igxell.dll",
+                      "size":  366416
+                  },
+                  {
+                      "name":  "igxelpgicd32.dll",
+                      "size":  18925736
+                  },
+                  {
+                      "name":  "igxelpgicd64.dll",
+                      "size":  22744248
+                  },
+                  {
+                      "name":  "igxelpicd32.dll",
+                      "size":  18701504
+                  },
+                  {
+                      "name":  "igxelpicd64.dll",
+                      "size":  22203552
+                  },
+                  {
+                      "name":  "igxess.dll",
+                      "size":  89661640
+                  },
+                  {
+                      "name":  "igxess2.dll",
+                      "size":  71906664
+                  },
+                  {
+                      "name":  "igxess_fg.dll",
+                      "size":  29093536
+                  },
+                  {
+                      "name":  "iigd_dch.inf",
+                      "size":  659392
+                  },
+                  {
+                      "name":  "IntelControlLib.dll",
+                      "size":  737176
+                  },
+                  {
+                      "name":  "IntelControlLib32.dll",
+                      "size":  656224
+                  },
+                  {
+                      "name":  "IntelCpHDCPSvc.exe",
+                      "size":  348920
+                  },
+                  {
+                      "name":  "IntelDisplayUMService.exe",
+                      "size":  360696
+                  },
+                  {
+                      "name":  "intel_gfx_api-x64.dll",
+                      "size":  597904
+                  },
+                  {
+                      "name":  "intel_gfx_api-x86.dll",
+                      "size":  456888
+                  },
+                  {
+                      "name":  "Intel_OpenCL_ICD32.dll",
+                      "size":  364704
+                  },
+                  {
+                      "name":  "Intel_OpenCL_ICD64.dll",
+                      "size":  484000
+                  },
+                  {
+                      "name":  "libigc.so",
+                      "size":  67533216
+                  },
+                  {
+                      "name":  "libigd12dxva64.so",
+                      "size":  29926232
+                  },
+                  {
+                      "name":  "libigd12um64xe2.so",
+                      "size":  9494088
+                  },
+                  {
+                      "name":  "libigd12um64xeh.so",
+                      "size":  30628408
+                  },
+                  {
+                      "name":  "libigd12um64xel.so",
+                      "size":  8873272
+                  },
+                  {
+                      "name":  "libigd12umd64.so",
+                      "size":  55608
+                  },
+                  {
+                      "name":  "libigdfcl.so",
+                      "size":  758648
+                  },
+                  {
+                      "name":  "libigdgmm2_w.so.2",
+                      "size":  198952
+                  },
+                  {
+                      "name":  "libigdgmmstaging_w.so.0",
+                      "size":  18232
+                  },
+                  {
+                      "name":  "libigdgmm_w.so.12",
+                      "size":  2603688
+                  },
+                  {
+                      "name":  "libLLVM-14.so",
+                      "size":  34729048
+                  },
+                  {
+                      "name":  "libmfx32-gen.dll",
+                      "size":  24030760
+                  },
+                  {
+                      "name":  "libmfx64-gen.dll",
+                      "size":  25782400
+                  },
+                  {
+                      "name":  "libmfxhw32.dll",
+                      "size":  27614504
+                  },
+                  {
+                      "name":  "libmfxhw64.dll",
+                      "size":  29184264
+                  },
+                  {
+                      "name":  "libopencl-clang2.so.14",
+                      "size":  164604448
+                  },
+                  {
+                      "name":  "libUniversalAdapter64.so",
+                      "size":  251968
+                  },
+                  {
+                      "name":  "libwsl_compute_helper.so",
+                      "size":  550968
+                  },
+                  {
+                      "name":  "media_bin_32.dll",
+                      "size":  29799560
+                  },
+                  {
+                      "name":  "media_bin_64.dll",
+                      "size":  35319928
+                  },
+                  {
+                      "name":  "media_model.bin",
+                      "size":  10974564
+                  },
+                  {
+                      "name":  "mfxplugin32_av1e_gacc.dll",
+                      "size":  8683008
+                  },
+                  {
+                      "name":  "mfxplugin32_hw.dll",
+                      "size":  20682456
+                  },
+                  {
+                      "name":  "mfxplugin64_av1e_gacc.dll",
+                      "size":  12657288
+                  },
+                  {
+                      "name":  "mfxplugin64_hw.dll",
+                      "size":  27958480
+                  },
+                  {
+                      "name":  "mfx_loader_dll_hw32.dll",
+                      "size":  713968
+                  },
+                  {
+                      "name":  "mfx_loader_dll_hw64.dll",
+                      "size":  955248
+                  },
+                  {
+                      "name":  "mfx_media_merit_32.dll",
+                      "size":  1290944
+                  },
+                  {
+                      "name":  "mfx_media_merit_32.vp",
+                      "size":  11182
+                  },
+                  {
+                      "name":  "mfx_media_merit_64.dll",
+                      "size":  1444584
+                  },
+                  {
+                      "name":  "mfx_media_merit_64.vp",
+                      "size":  3164
+                  },
+                  {
+                      "name":  "mfx_mft_av1hve_32.dll",
+                      "size":  1578360
+                  },
+                  {
+                      "name":  "mfx_mft_av1hve_64.dll",
+                      "size":  2093376
+                  },
+                  {
+                      "name":  "mfx_mft_av1ve_32.dll",
+                      "size":  1578840
+                  },
+                  {
+                      "name":  "mfx_mft_av1ve_64.dll",
+                      "size":  2093376
+                  },
+                  {
+                      "name":  "mfx_mft_encrypt_32.dll",
+                      "size":  1419032
+                  },
+                  {
+                      "name":  "mfx_mft_encrypt_64.dll",
+                      "size":  1905464
+                  },
+                  {
+                      "name":  "mfx_mft_h264ve_32.dll",
+                      "size":  1564800
+                  },
+                  {
+                      "name":  "mfx_mft_h264ve_64.dll",
+                      "size":  2077720
+                  },
+                  {
+                      "name":  "mfx_mft_h265ve_32.dll",
+                      "size":  1579376
+                  },
+                  {
+                      "name":  "mfx_mft_h265ve_64.dll",
+                      "size":  2093888
+                  },
+                  {
+                      "name":  "mfx_mft_mjpgvd_32.dll",
+                      "size":  1427640
+                  },
+                  {
+                      "name":  "mfx_mft_mjpgvd_64.dll",
+                      "size":  1905336
+                  },
+                  {
+                      "name":  "mfx_mft_vp9ve_32.dll",
+                      "size":  1573616
+                  },
+                  {
+                      "name":  "mfx_mft_vp9ve_64.dll",
+                      "size":  2089712
+                  },
+                  {
+                      "name":  "msvcp140.dll",
+                      "size":  594728
+                  },
+                  {
+                      "name":  "opencl-clang232.dll",
+                      "size":  123537496
+                  },
+                  {
+                      "name":  "opencl-clang264.dll",
+                      "size":  151042112
+                  },
+                  {
+                      "name":  "OSSCOPYRIGHT.txt",
+                      "size":  1372
+                  },
+                  {
+                      "name":  "UMED.dll",
+                      "size":  149752
+                  },
+                  {
+                      "name":  "UniversalAdapter32.dll",
+                      "size":  547464
+                  },
+                  {
+                      "name":  "UniversalAdapter64.dll",
+                      "size":  646712
+                  },
+                  {
+                      "name":  "vcruntime140.dll",
+                      "size":  113536
+                  },
+                  {
+                      "name":  "vcruntime140_1.dll",
+                      "size":  52008
+                  },
+                  {
+                      "name":  "vpl_dispatcher_32.dll",
+                      "size":  671016
+                  },
+                  {
+                      "name":  "vpl_dispatcher_64.dll",
+                      "size":  792936
+                  },
+                  {
+                      "name":  "vulkan-1-32.dll",
+                      "size":  1428056
+                  },
+                  {
+                      "name":  "vulkan-1-64.dll",
+                      "size":  1621584
+                  },
+                  {
+                      "name":  "vulkaninfo-32.exe",
+                      "size":  1880880
+                  },
+                  {
+                      "name":  "vulkaninfo-64.exe",
+                      "size":  2372376
+                  },
+                  {
+                      "name":  "VulkanRT-EULA.txt",
+                      "size":  4008
+                  },
+                  {
+                      "name":  "XeFX.dll",
+                      "size":  139160
+                  },
+                  {
+                      "name":  "ze_intel_gpu64.dll",
+                      "size":  31571496
+                  },
+                  {
+                      "name":  "ze_intel_gpu_raytracing.dll",
+                      "size":  2071088
+                  },
+                  {
+                      "name":  "ze_loader.dll",
+                      "size":  949000
+                  },
+                  {
+                      "name":  "ze_tracing_layer.dll",
+                      "size":  671936
+                  },
+                  {
+                      "name":  "ze_validation_layer.dll",
+                      "size":  1099720
+                  }
+              ],
+    "driverver":  "08/19/2025 32.0.101.7026"
+}
