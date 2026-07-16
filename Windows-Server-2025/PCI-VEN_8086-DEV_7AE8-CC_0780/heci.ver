@@ -1,0 +1,8 @@
+DriverVer=08/15/2024 2433.6.3.0
+Provider=Intel
+Class=System
+Published=oem2.inf
+Original=heci.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\heci.inf_amd64_0f5b7bb40dc5cf1b
+PackageMB=0.34
+CachedUtc=2026-07-16T07:54:06.9777501Z
