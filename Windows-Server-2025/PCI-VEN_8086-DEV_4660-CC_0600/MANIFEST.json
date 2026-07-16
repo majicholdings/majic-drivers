@@ -1,0 +1,15 @@
+{
+    "totalMB":  0.03,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakesystem.inf_amd64_453df4f61faa9f59",
+    "files":  [
+                  {
+                      "name":  "AlderLake.cat",
+                      "size":  15786
+                  },
+                  {
+                      "name":  "AlderLakeSystem.inf",
+                      "size":  11910
+                  }
+              ],
+    "driverver":  "07/18/1968 10.1.45.10"
+}
