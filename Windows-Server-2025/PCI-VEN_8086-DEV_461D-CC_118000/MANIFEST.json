@@ -1,0 +1,103 @@
+{
+    "totalMB":  15.28,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_5fe37e024ff302b0",
+    "files":  [
+                  {
+                      "name":  "ClientApiProxy.dll",
+                      "size":  697824
+                  },
+                  {
+                      "name":  "CoreApiProxy.dll",
+                      "size":  355296
+                  },
+                  {
+                      "name":  "CoreProvider.dll",
+                      "size":  2115560
+                  },
+                  {
+                      "name":  "dsp.dv",
+                      "size":  778547
+                  },
+                  {
+                      "name":  "ipfcore.dll",
+                      "size":  818664
+                  },
+                  {
+                      "name":  "ipfipc.dll",
+                      "size":  713696
+                  },
+                  {
+                      "name":  "ipfsrv.dll",
+                      "size":  913888
+                  },
+                  {
+                      "name":  "ipf_cmp.dll",
+                      "size":  156128
+                  },
+                  {
+                      "name":  "ipf_cpu.cat",
+                      "size":  23774
+                  },
+                  {
+                      "name":  "ipf_cpu.inf",
+                      "size":  15716
+                  },
+                  {
+                      "name":  "ipf_cpu.sys",
+                      "size":  552928
+                  },
+                  {
+                      "name":  "ipf_helper.exe",
+                      "size":  732648
+                  },
+                  {
+                      "name":  "ipf_uf.exe",
+                      "size":  3357664
+                  },
+                  {
+                      "name":  "ipf_umdf2.dll",
+                      "size":  1339368
+                  },
+                  {
+                      "name":  "NamespaceMgr.dll",
+                      "size":  1398240
+                  },
+                  {
+                      "name":  "ProviderCatalogProxy.dll",
+                      "size":  751584
+                  },
+                  {
+                      "name":  "upe_battery.dll",
+                      "size":  81888
+                  },
+                  {
+                      "name":  "upe_capi.dll",
+                      "size":  67552
+                  },
+                  {
+                      "name":  "upe_ipa.dll",
+                      "size":  93664
+                  },
+                  {
+                      "name":  "upe_nvapi.dll",
+                      "size":  127456
+                  },
+                  {
+                      "name":  "upe_nvme.dll",
+                      "size":  134624
+                  },
+                  {
+                      "name":  "upe_socwc.dll",
+                      "size":  237024
+                  },
+                  {
+                      "name":  "upe_wifi.dll",
+                      "size":  88032
+                  },
+                  {
+                      "name":  "upe_wwan.dll",
+                      "size":  467944
+                  }
+              ],
+    "driverver":  "01/14/2026 2.3.20303.5058"
+}
