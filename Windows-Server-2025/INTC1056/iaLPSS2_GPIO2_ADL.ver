@@ -1,0 +1,8 @@
+DriverVer=07/30/2025 30.100.2531.31
+Provider=Intel Corporation
+Class=System
+Published=oem33.inf
+Original=ialpss2_gpio2_adl.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\ialpss2_gpio2_adl.inf_amd64_c804e238af0965e6
+PackageMB=0.16
+CachedUtc=2026-07-16T09:19:03.6227935Z
