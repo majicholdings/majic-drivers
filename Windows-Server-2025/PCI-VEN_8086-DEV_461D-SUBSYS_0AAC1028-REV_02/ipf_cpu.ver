@@ -1,0 +1,8 @@
+DriverVer=01/14/2026 2.3.20303.5058
+Provider=Intel
+Class=System
+Published=oem17.inf
+Original=ipf_cpu.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\ipf_cpu.inf_amd64_5fe37e024ff302b0
+PackageMB=15.28
+CachedUtc=2026-07-16T07:50:31.6507873Z
