@@ -1,0 +1,199 @@
+{
+    "totalMB":  182,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\killernetworkcomponent.inf_amd64_b2c3adfde35e08be",
+    "files":  [
+                  {
+                      "name":  "appsettings.json",
+                      "size":  188
+                  },
+                  {
+                      "name":  "appsettings.Release.json",
+                      "size":  702
+                  },
+                  {
+                      "name":  "CustomizeInstallFirstRun.exe",
+                      "size":  551800
+                  },
+                  {
+                      "name":  "D3DCompiler_47_cor3.dll",
+                      "size":  4938104
+                  },
+                  {
+                      "name":  "EnableStartService.exe",
+                      "size":  45432
+                  },
+                  {
+                      "name":  "IntelBenchmarkSDK.dll",
+                      "size":  70008
+                  },
+                  {
+                      "name":  "IntelConnectIPC.dll",
+                      "size":  143224
+                  },
+                  {
+                      "name":  "IntelConnectPluginCommon.dll",
+                      "size":  36216
+                  },
+                  {
+                      "name":  "IntelConnectUtilities.dll",
+                      "size":  41848
+                  },
+                  {
+                      "name":  "IntelIHVPipeClient.dll",
+                      "size":  1075576
+                  },
+                  {
+                      "name":  "IntelNetworkHelperService.exe",
+                      "size":  158284376
+                  },
+                  {
+                      "name":  "IntelOverclockingSDK.dll",
+                      "size":  782712
+                  },
+                  {
+                      "name":  "iwsdk.dll",
+                      "size":  347512
+                  },
+                  {
+                      "name":  "KAPS.exe",
+                      "size":  3788664
+                  },
+                  {
+                      "name":  "KAPSApi.dll",
+                      "size":  225656
+                  },
+                  {
+                      "name":  "KAPSService.exe",
+                      "size":  88952
+                  },
+                  {
+                      "name":  "KAPSService.xml",
+                      "size":  654
+                  },
+                  {
+                      "name":  "KfeCo10X64.sys",
+                      "size":  238456
+                  },
+                  {
+                      "name":  "KfeCo11X64.sys",
+                      "size":  241528
+                  },
+                  {
+                      "name":  "KillerAnalyticsService.exe",
+                      "size":  2495352
+                  },
+                  {
+                      "name":  "KillerEventLogMessages.dll",
+                      "size":  70512
+                  },
+                  {
+                      "name":  "KillerNetworkComponent.cat",
+                      "size":  32753
+                  },
+                  {
+                      "name":  "KillerNetworkComponent.inf",
+                      "size":  52996
+                  },
+                  {
+                      "name":  "KillerNetworkService.exe",
+                      "size":  2812280
+                  },
+                  {
+                      "name":  "KillerProviderDataHelperService.exe",
+                      "size":  1224056
+                  },
+                  {
+                      "name":  "KNDBWM.exe",
+                      "size":  1197944
+                  },
+                  {
+                      "name":  "KNDBWMService.exe",
+                      "size":  88952
+                  },
+                  {
+                      "name":  "KNDBWMService.xml",
+                      "size":  688
+                  },
+                  {
+                      "name":  "LicenseAttribution.txt",
+                      "size":  46296
+                  },
+                  {
+                      "name":  "oem.xml",
+                      "size":  182
+                  },
+                  {
+                      "name":  "Overclocking.Plugin.ClientSDK.dll",
+                      "size":  62840
+                  },
+                  {
+                      "name":  "Overclocking.Plugin.Contract.dll",
+                      "size":  48504
+                  },
+                  {
+                      "name":  "Overclocking.plugin.dll",
+                      "size":  95096
+                  },
+                  {
+                      "name":  "OverclockingXtuSdkWrapper.dll",
+                      "size":  54136
+                  },
+                  {
+                      "name":  "PenImc_cor3.dll",
+                      "size":  178040
+                  },
+                  {
+                      "name":  "PresentationNative_cor3.dll",
+                      "size":  1256824
+                  },
+                  {
+                      "name":  "ProfileHelperModel.dll",
+                      "size":  40312
+                  },
+                  {
+                      "name":  "QRCoder.dll",
+                      "size":  175480
+                  },
+                  {
+                      "name":  "rn.stg",
+                      "size":  721408
+                  },
+                  {
+                      "name":  "RNIdleTask.exe",
+                      "size":  43896
+                  },
+                  {
+                      "name":  "SQLite.Interop.dll",
+                      "size":  1838456
+                  },
+                  {
+                      "name":  "System.Data.SQLite.dll",
+                      "size":  441208
+                  },
+                  {
+                      "name":  "user.xml",
+                      "size":  182
+                  },
+                  {
+                      "name":  "vcruntime140_cor3.dll",
+                      "size":  133496
+                  },
+                  {
+                      "name":  "WifiCredentialPrompter.exe",
+                      "size":  4306296
+                  },
+                  {
+                      "name":  "wpfgfx_cor3.dll",
+                      "size":  1974136
+                  },
+                  {
+                      "name":  "XtuBenchmark.dll",
+                      "size":  240504
+                  },
+                  {
+                      "name":  "XtuCommon.dll",
+                      "size":  304496
+                  }
+              ],
+    "driverver":  "01/07/2026 40.26.107.202"
+}
