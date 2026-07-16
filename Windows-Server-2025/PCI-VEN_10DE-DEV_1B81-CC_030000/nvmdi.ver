@@ -1,0 +1,8 @@
+DriverVer=06/09/2026 32.0.15.8266
+Provider=NVIDIA
+Class=Display
+Published=oem72.inf
+Original=nvmdi.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\nvmdi.inf_amd64_749ff44082d5b9bf
+PackageMB=2516.87
+CachedUtc=2026-07-16T08:46:01.6946712Z
