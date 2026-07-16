@@ -1,0 +1,23 @@
+{
+    "totalMB":  0.05,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dellinstrumentation.inf_amd64_b559b6b296055b4b",
+    "files":  [
+                  {
+                      "name":  "DellInstrumentation.cat",
+                      "size":  11378
+                  },
+                  {
+                      "name":  "dellinstrumentation.inf",
+                      "size":  2461
+                  },
+                  {
+                      "name":  "dellinstrumentation.PNF",
+                      "size":  8940
+                  },
+                  {
+                      "name":  "DellInstrumentation.sys",
+                      "size":  33336
+                  }
+              ],
+    "driverver":  "09/05/2025 2.9.2.0"
+}
