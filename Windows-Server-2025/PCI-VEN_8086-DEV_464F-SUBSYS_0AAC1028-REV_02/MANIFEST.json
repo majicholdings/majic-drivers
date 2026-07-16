@@ -1,0 +1,23 @@
+{
+    "totalMB":  0.12,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\gna.inf_amd64_8e2f374849f1eba9",
+    "files":  [
+                  {
+                      "name":  "gna.cat",
+                      "size":  12305
+                  },
+                  {
+                      "name":  "gna.inf",
+                      "size":  9168
+                  },
+                  {
+                      "name":  "gna.PNF",
+                      "size":  9260
+                  },
+                  {
+                      "name":  "gna.sys",
+                      "size":  90304
+                  }
+              ],
+    "driverver":  "11/14/2023 3.5.0.1578"
+}
