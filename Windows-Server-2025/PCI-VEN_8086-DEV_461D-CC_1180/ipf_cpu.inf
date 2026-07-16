@@ -1,0 +1,432 @@
+;-------------------------------------------------------------------------------
+; INTEL CONFIDENTIAL
+;
+; Copyright (c) 2013-2026 Intel Corporation All Rights Reserved 
+;
+; The source code contained or described herein and all documents related to 
+; the source code ("Material") are owned by Intel Corporation or its suppliers 
+; or licensors. Title to the Material remains with Intel Corporation or its 
+; suppliers and licensors. The Material contains trade secrets and proprietary 
+; and confidential information of Intel or its suppliers and licensors. The 
+; Material is protected by worldwide copyright and trade secret laws and treaty 
+; provisions. No part of the Material may be used, copied, reproduced, 
+; modified, published, uploaded, posted, transmitted, distributed, or 
+; disclosed in any way without Intel's prior express written permission.
+;
+; No license under any patent, copyright, trade secret or other intellectual 
+; property right is granted to or conferred upon you by disclosure or delivery 
+; of the Materials, either expressly, by implication, inducement, estoppel or 
+; otherwise. Any license under such intellectual property rights must be 
+; expressed and approved by Intel in writing.
+;------------------------------------------------------------------------------
+
+[Version] 
+Signature = "$WINDOWS NT$" 
+Class=System
+ClassGUID = {4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider = %INTEL% 
+CatalogFile = ipf_cpu.cat
+DriverVer = 01/14/2026,2.3.20303.5058
+PnpLockDown=1
+
+;----------------------------------------------------------------------
+; File Information
+;----------------------------------------------------------------------
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+ipf_cpu.sys = 1
+ipf_umdf2.dll = 1
+dsp.dv = 1
+ipf_uf.exe = 1
+upe_capi.dll = 1
+upe_wwan.dll = 1
+upe_wifi.dll = 1
+upe_nvme.dll = 1
+upe_battery.dll = 1
+upe_nvapi.dll = 1
+upe_socwc.dll = 1
+upe_ipa.dll = 1
+ipf_helper.exe = 1
+ipf_cmp.dll = 1
+ipfcore.dll = 1
+ipfipc.dll = 1
+ipfsrv.dll = 1
+ClientApiProxy.dll = 1
+CoreProvider.dll = 1
+CoreApiProxy.dll = 1
+NamespaceMgr.dll = 1
+ProviderCatalogProxy.dll = 1
+
+[DestinationDirs]
+DefaultDestDir = 13
+IpfCpu_CopyFiles = 13
+
+;-------------------------------------------------------------------------------
+; Manufacturer and Models Section
+;-------------------------------------------------------------------------------
+
+[Manufacturer]
+%INTEL% = INTEL, NTamd64.10.0...22621
+
+[INTEL.NTamd64.10.0...22621]
+%PROCADL.DeviceDesc%  = IpfInstall_EF,PCI\VEN_8086&DEV_461D
+%PROCFHF.DeviceDesc%  = IpfInstall_EF,PCI\VEN_8086&DEV_3258
+%PROCRPL.DeviceDesc%  = IpfInstall_EF,PCI\VEN_8086&DEV_A71D
+%PROCMTL.DeviceDesc%  = IpfInstall_EF,PCI\VEN_8086&DEV_7D03
+%PROCMTLS.DeviceDesc% = IpfInstall_EF,PCI\VEN_8086&DEV_AD03
+%PROCLNL.DeviceDesc%  = IpfInstall_MSI_EF,PCI\VEN_8086&DEV_641D
+%PROCPTL.DeviceDesc%  = IpfInstall_MSI_EF,PCI\VEN_8086&DEV_B01D
+%PROCWCL.DeviceDesc%  = IpfInstall_MSI_EF,PCI\VEN_8086&DEV_FD1D
+
+%IPFEF.DeviceDesc%    = IpfEfInstall,SWC\VID8086_IPFEF_1.0
+
+;------------------------------------------------------------------------------
+; IPF Install Section
+;------------------------------------------------------------------------------
+
+[IpfInstall_EF.NTamd64]
+Include   = WUDFRD.inf
+Needs     = WUDFRD.NT
+CopyFiles = IpfCpu_CopyFiles
+
+[IpfInstall_MSI_EF.NTamd64]
+Include   = WUDFRD.inf
+Needs     = WUDFRD.NT
+CopyFiles = IpfCpu_CopyFiles
+
+[IpfInstall_EF.NTamd64.Services]
+Include = WUDFRD.inf
+Needs = WUDFRD.NT.Services
+AddService = ipf_cpu,0x00000002, IpfLfService_Install,, System, ipf_cpu
+AddService = ipfsvc,0x000009f8,IpfUfService_Install,,Application,IPF
+
+[IpfInstall_MSI_EF.NTamd64.Services]
+Include = WUDFRD.inf
+Needs = WUDFRD.NT.Services
+AddService = ipf_cpu,0x00000002, IpfLfService_Install,, System, ipf_cpu
+AddService = ipfsvc,0x000009f8,IpfUfService_Install,,Application,IPF
+
+[IpfLfService_Install]
+ServiceType = %SERVICE_KERNEL_DRIVER%
+StartType = %SERVICE_DEMAND_START%
+ErrorControl = %SERVICE_ERROR_NORMAL%
+ServiceBinary = %13%\ipf_cpu.sys
+AddReg = IpfVersion_AddReg
+
+[IpfVersion_AddReg]
+HKR,"Parameters","Version",,"2.3.20303.5058"
+HKR,"Parameters","Display",,"Intel(R) Innovation Platform Framework"
+HKR,"Parameters","Path",,"%13%"
+
+[IpfInstall_EF.NTamd64.HW]
+Include = WUDFRD.inf
+Needs = WUDFRD.NT.HW
+AddReg = Hw_AddFilterReg
+AddReg = Hw_AddLocationReg
+
+[IpfInstall_MSI_EF.NTamd64.HW]
+Include = WUDFRD.inf
+Needs = WUDFRD.NT.HW
+AddReg = Hw_AddFilterReg
+AddReg = Hw_AddLocationReg
+AddReg = Hw_EnableMsi
+
+[Hw_AddFilterReg]
+HKR,,"UpperFilters", 0x00010008, "WUDFRd"
+HKR,,Security,,"D:P(A;;GA;;;SY)(A;;GA;;;BA)"
+
+[Hw_AddLocationReg]
+HKR,,"InstallDir",,%13%
+
+[Hw_EnableMsi]
+HKR,Interrupt Management,,0x00000010
+HKR,Interrupt Management\MessageSignaledInterruptProperties,,0x00000010
+HKR,Interrupt Management\MessageSignaledInterruptProperties,MSISupported,0x00010001,1
+HKR,Interrupt Management\MessageSignaledInterruptProperties, MessageNumberLimit, 0x00010001, 8
+
+[IpfInstall_EF.NTamd64.Wdf]
+KmdfService = ipf_cpu, Wdf_KmdfSection
+UmdfService = ipf_umdf2, Wdf_UmdfSection10.0
+UmdfServiceOrder = ipf_umdf2
+UmdfImpersonationLevel = Impersonation
+UmdfKernelModeClientPolicy = AllowKernelModeClients 
+UmdfFileObjectPolicy = AllowNullAndUnknownFileObjects
+UmdfHostProcessSharing = ProcessSharingDisabled
+UmdfDispatcher = FileHandle
+
+[IpfInstall_MSI_EF.NTamd64.Wdf]
+KmdfService = ipf_cpu, Wdf_KmdfSection
+UmdfService = ipf_umdf2, Wdf_UmdfSection10.0
+UmdfServiceOrder = ipf_umdf2
+UmdfImpersonationLevel = Impersonation
+UmdfKernelModeClientPolicy = AllowKernelModeClients 
+UmdfFileObjectPolicy = AllowNullAndUnknownFileObjects
+UmdfHostProcessSharing = ProcessSharingDisabled
+UmdfDispatcher = FileHandle
+
+[Wdf_KmdfSection]
+KmdfLibraryVersion = 1.11
+
+[Wdf_UmdfSection10.0]
+UmdfLibraryVersion = 2.0.0 ;hardcoded as the same inf is used for 1.11 too.
+ServiceBinary = %13%\ipf_umdf2.dll
+
+;----------------------------------------------------------------------
+; ETW Support components
+;----------------------------------------------------------------------
+
+[IpfInstall_EF.NTamd64.Events]
+AddEventProvider = %IpfLfEtwProviderKeyGuid%,IpfLfEtw_Install_Win11
+AddEventProvider = %IpfCpuEtwProviderKeyGuid%,IpfCpuEtw_Install_Win11
+AddEventProvider = %IpfUmdf2EtwProviderKeyGuid%,IpfUmdf2Etw_Install_Win11
+AddEventProvider = %IpfUmdf2EventLogProviderKeyGuid%,IpfUmdf2EventLog_Install_Win11
+AddEventProvider = %IpfSvcEtwProviderKeyGuid%,IpfUfEtw_Install_Win11
+AddEventProvider = %IpfSvcEventLogProviderKeyGuid%,IpfUfEventLog_Install_Win11
+AddEventProvider = %IpfHelperEtwProviderKeyGuid%,IpfHelperEtw_Install_Win11
+AddEventProvider = %IpfHelperEventLogProviderKeyGuid%,IpfHelperEventLog_Install_Win11
+AddEventProvider = %IpfCoreEtwProviderKeyGuid%,IpfCoreEtw_Install_Win11
+AddEventProvider = %IpfIpcEtwProviderKeyGuid%,IpfIpcEtw_Install_Win11
+
+[IpfInstall_MSI_EF.NTamd64.Events]
+AddEventProvider = %IpfLfEtwProviderKeyGuid%,IpfLfEtw_Install_Win11
+AddEventProvider = %IpfCpuEtwProviderKeyGuid%,IpfCpuEtw_Install_Win11
+AddEventProvider = %IpfUmdf2EtwProviderKeyGuid%,IpfUmdf2Etw_Install_Win11
+AddEventProvider = %IpfUmdf2EventLogProviderKeyGuid%,IpfUmdf2EventLog_Install_Win11
+AddEventProvider = %IpfSvcEtwProviderKeyGuid%,IpfUfEtw_Install_Win11
+AddEventProvider = %IpfSvcEventLogProviderKeyGuid%,IpfUfEventLog_Install_Win11
+AddEventProvider = %IpfHelperEtwProviderKeyGuid%,IpfHelperEtw_Install_Win11
+AddEventProvider = %IpfHelperEventLogProviderKeyGuid%,IpfHelperEventLog_Install_Win11
+AddEventProvider = %IpfCoreEtwProviderKeyGuid%,IpfCoreEtw_Install_Win11
+AddEventProvider = %IpfIpcEtwProviderKeyGuid%,IpfIpcEtw_Install_Win11
+
+[IpfLfEtw_Install_Win11]
+ProviderName = EsifLfEtwProvider
+ResourceFile = %13%\ipf_cpu.sys
+MessageFile  = %13%\ipf_cpu.sys
+
+[IpfCpuEtw_Install_Win11]
+ProviderName = DptfCpuEtwProvider
+ResourceFile = %13%\ipf_cpu.sys
+MessageFile  = %13%\ipf_cpu.sys
+
+[IpfUmdf2Etw_Install_Win11]
+ProviderName = EsifUmdf2EtwProvider
+ResourceFile = %13%\ipf_umdf2.dll
+MessageFile  = %13%\ipf_umdf2.dll
+
+[IpfUmdf2EventLog_Install_Win11]
+ProviderName  = IPF
+ResourceFile  = %13%\ipf_umdf2.dll
+MessageFile   = %13%\ipf_umdf2.dll
+ImportChannel = Application
+
+[IpfUfEtw_Install_Win11]
+ProviderName = EsifSvcEtwProvider
+ResourceFile = %13%\ipf_uf.exe
+MessageFile  = %13%\ipf_uf.exe
+
+[IpfUfEventLog_Install_Win11]
+ProviderName  = IPFUF
+ResourceFile  = %13%\ipf_uf.exe
+MessageFile   = %13%\ipf_uf.exe
+ImportChannel = Application
+
+[IpfHelperEtw_Install_Win11]
+ProviderName = DptfHelperEtwProvider
+ResourceFile = %13%\ipf_helper.exe
+MessageFile  = %13%\ipf_helper.exe
+
+[IpfHelperEventLog_Install_Win11]
+ProviderName  = DPTFHELPER
+ResourceFile  = %13%\ipf_helper.exe
+MessageFile   = %13%\ipf_helper.exe
+ImportChannel = Application
+
+[IpfCoreEtw_Install_Win11]
+ProviderName = IpfCoreEtwProvider
+ResourceFile = %13%\ipfcore.dll
+MessageFile  = %13%\ipfcore.dll
+
+[IpfIpcEtw_Install_Win11]
+ProviderName = IpfIpcEtwProvider
+ResourceFile = %13%\ipfipc.dll
+MessageFile  = %13%\ipfipc.dll
+
+;----------------------------------------------------------------------
+; Various IPF UF components.
+;----------------------------------------------------------------------
+
+[IpfCpu_CopyFiles]
+ipf_cpu.sys,,,2
+ipf_umdf2.dll,,,2
+ipf_uf.exe,,,%COPYFLG_NOSKIP%
+dsp.dv,,,%COPYFLG_NOSKIP%
+upe_capi.dll,,,%COPYFLG_NOSKIP%
+upe_wwan.dll,,,%COPYFLG_NOSKIP%
+upe_wifi.dll,,,%COPYFLG_NOSKIP%
+upe_nvme.dll,,,%COPYFLG_NOSKIP%
+upe_battery.dll,,,%COPYFLG_NOSKIP%
+upe_nvapi.dll,,,%COPYFLG_NOSKIP%
+upe_socwc.dll,,,%COPYFLG_NOSKIP%
+upe_ipa.dll,,,%COPYFLG_NOSKIP%
+ipf_helper.exe,,,%COPYFLG_NOSKIP%
+ipf_cmp.dll,,,%COPYFLG_NOSKIP%
+ipfcore.dll,,,%COPYFLG_NOSKIP%
+ipfipc.dll,,,%COPYFLG_NOSKIP%
+ipfsrv.dll,,,%COPYFLG_NOSKIP%
+
+[IpfUfService_Install]
+DisplayName=%ServiceDisplayName%
+Description=%ServiceDescription%
+ServiceType = %SERVICE_WIN32_OWN_PROCESS%
+StartType = %SERVICE_AUTO_START%
+ErrorControl = %SERVICE_ERROR_NORMAL%
+ServiceBinary = %13%\ipf_uf.exe
+FailureActions=ServiceFailureActions
+
+[ServiceFailureActions]
+ResetPeriod=86400
+NonCrashFailures=0x1
+Action=1,0
+Action=1,0
+Action=0,0
+
+
+;----------------------------------------------------------------------
+; IPF EF Components
+;----------------------------------------------------------------------
+
+[IpfInstall_EF.NTamd64.Components]
+AddComponent = IpfEfExtComponent,,IpfEfExtComponentInstall
+
+[IpfInstall_MSI_EF.NTamd64.Components]
+AddComponent = IpfEfExtComponent,,IpfEfExtComponentInstall
+
+[IpfEfExtComponentInstall]
+ComponentIDs = VID8086_IPFEF_1.0
+Description = "Intel(R) Innovation Platform Framework Extensible Framework Component"
+
+[IpfEfInstall.NTamd64]
+CopyFiles = IpfEf_CopyFiles
+AddReg = IpfEfInstall_AddReg
+
+[IpfEfInstall.NTamd64.Services]
+AddService = ,2
+
+[IpfEfInstall.NTamd64.Events]
+AddEventProvider = %IpfNamespaceMgrEtwProviderKeyGuid%,IpfNamespaceMgrEtw_Install
+AddEventProvider = %IpfClientApiProxyEtwProviderKeyGuid%,IpfClientApiProxyEtw_Install
+AddEventProvider = %IpfCoreProviderEtwProviderKeyGuid%,CoreProviderEtw_Install
+AddEventProvider = %IpfCoreApiProxyEtwProviderKeyGuid%,CoreApiProxyEtw_Install
+
+[IpfEf_CopyFiles]
+ClientApiProxy.dll
+CoreProvider.dll
+CoreApiProxy.dll
+NamespaceMgr.dll
+ProviderCatalogProxy.dll
+
+[IpfEfInstall_AddReg]
+HKR,,"Version",,"2.3.20303.5058"
+HKR,,"DisplayName",,"Intel(R) Innovation Platform Framework Extensible Framework"
+
+[IpfNamespaceMgrEtw_Install]
+ProviderName = NamespaceMgrEtwProvider
+ResourceFile = %13%\NamespaceMgr.dll
+MessageFile  = %13%\NamespaceMgr.dll
+
+[IpfClientApiProxyEtw_Install]
+ProviderName = ClientApiProxyEtwProvider
+ResourceFile = %13%\ClientApiProxy.dll
+MessageFile  = %13%\ClientApiProxy.dll
+
+[CoreProviderEtw_Install]
+ProviderName = CoreProviderEtwProvider
+ResourceFile = %13%\CoreProvider.dll
+MessageFile  = %13%\CoreProvider.dll
+
+[CoreApiProxyEtw_Install]
+ProviderName = CoreApiProxyEtwProvider
+ResourceFile = %13%\CoreApiProxy.dll
+MessageFile  = %13%\CoreApiProxy.dll
+
+;-------------------------------------------------------------------------------
+; IPF EF Install Interfaces Section
+;-------------------------------------------------------------------------------
+
+[IpfEfInstall.NTamd64.Interfaces]
+AddInterface = %ClientInterfaceGuid%,,IpfEfInstallInterface,0
+AddInterface = %ProviderInterfaceGuid%,,IpfEfCoreProviderInstallInterface,0
+
+[IpfEfInstallInterface]
+AddReg = IpfEfInstallInterface_AddReg
+
+[IpfEfInstallInterface_AddReg]
+HKR,,"InstallDir",,%13%
+
+[IpfEfCoreProviderInstallInterface]
+AddReg = IpfEfCoreProviderInstallInterface_AddReg
+
+[IpfEfCoreProviderInstallInterface_AddReg]
+HKR,,"ProviderDir",,%13%
+HKR,,"ProviderPackages",,%ProviderList%
+
+;----------------------------------------------------------------------
+; Strings and Constants
+;----------------------------------------------------------------------
+
+[Strings]
+INTEL = "Intel"
+DiskName = "Intel(R) Innovation Platform Framework"
+ReflectorName="Windows Driver Foundation - User-mode Driver Framework Reflector"
+
+SERVICE_AUTO_START = 2
+SERVICE_DEMAND_START  = 3
+SERVICE_ERROR_NORMAL  = 1
+SERVICE_KERNEL_DRIVER = 1
+SERVICE_WIN32_OWN_PROCESS = 0x00000010
+
+REG_SZ                          = 0x00000000
+REG_DWORD                       = 0x00010001
+REG_MULTI_SZ                    = 0x00010000
+REG_EXPAND_SZ                   = 0x00020000
+REG_BINARY = 0x00000001
+REG_QWORD = 0x000B0001
+
+COPYFLG_NOSKIP = 0x00000002
+
+ServiceDisplayName="Intel(R) Innovation Platform Framework Service"
+ServiceDescription="Intel(R) Innovation Platform Framework Service"
+
+IpfLfEtwProviderKeyGuid="{FDC7B3F9-EB64-4043-9D47-BF2B7457BAA6}"
+IpfCpuEtwProviderKeyGuid="{651E0E5C-0946-43FF-B70F-AECD299B29B4}"
+IpfUmdf2EtwProviderKeyGuid="{3F51786B-B787-4B2F-84FC-272B76348F6D}"
+IpfUmdf2EventLogProviderKeyGuid="{D3CB85D1-D61C-4BCF-9674-7910EE54D6AF}"
+IpfSvcEtwProviderKeyGuid="{3E0F531A-5403-4DF0-99BB-65376BB2AFF0}"
+IpfSvcEventLogProviderKeyGuid="{1E1AE642-78CF-4E42-96F9-204141EC1061}"
+IpfHelperEtwProviderKeyGuid="{3929A44B-4233-421A-B231-C0EBC5175481}"
+IpfHelperEventLogProviderKeyGuid="{251DF2F5-DADB-4F41-B907-5638AA2E048A}"
+IpfCoreEtwProviderKeyGuid="{F7D67706-0BB1-47DD-86FC-6293D1EC3CF4}"
+IpfIpcEtwProviderKeyGuid="{66899E7E-2E7A-4253-9BB9-7AE3F812514F}"
+
+PROCADL.DeviceDesc  = "Intel(R) Innovation Platform Framework Processor Participant"
+PROCFHF.DeviceDesc  = "Intel(R) Innovation Platform Framework Processor Participant"
+PROCRPL.DeviceDesc  = "Intel(R) Innovation Platform Framework Processor Participant"
+PROCMTL.DeviceDesc  = "Intel(R) Innovation Platform Framework Processor Participant"
+PROCMTLS.DeviceDesc = "Intel(R) Innovation Platform Framework Processor Participant"
+PROCLNL.DeviceDesc  = "Intel(R) Innovation Platform Framework Processor Participant"
+PROCPTL.DeviceDesc  = "Intel(R) Innovation Platform Framework Processor Participant"
+PROCWCL.DeviceDesc  = "Intel(R) Innovation Platform Framework Processor Participant"
+
+IpfNamespaceMgrEtwProviderKeyGuid="{1DD31227-D298-4421-AF2F-38DCCB983788}"
+IpfClientApiProxyEtwProviderKeyGuid="{AFE177A4-3980-4E7F-810C-54E7911AFBDF}"
+IpfCoreApiProxyEtwProviderKeyGuid="{3C8700E5-41B0-4434-B29B-D7Eb8491B9E3}"
+IpfCoreProviderEtwProviderKeyGuid="{4A55034C-F29F-4934-ADEA-4EB54899BFF2}"
+
+IPFEF.DeviceDesc = "Intel(R) Innovation Platform Framework Extensible Framework"
+ClientInterfaceGuid = "{9DD57132-5929-476A-8CCB-9D42B1E4ABED}"
+ProviderInterfaceGuid = "{73FDD548-3C00-4279-B021-D0655F0B1E41}"
+ProviderList = "CoreProvider.dll"
