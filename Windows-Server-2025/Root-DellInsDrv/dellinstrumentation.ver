@@ -1,0 +1,8 @@
+DriverVer=09/05/2025 2.9.2.0
+Provider=Dell Technologies
+Class=DellInstrumentation
+Published=oem15.inf
+Original=dellinstrumentation.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\dellinstrumentation.inf_amd64_b559b6b296055b4b
+PackageMB=0.05
+CachedUtc=2026-07-16T08:59:31.4834555Z
