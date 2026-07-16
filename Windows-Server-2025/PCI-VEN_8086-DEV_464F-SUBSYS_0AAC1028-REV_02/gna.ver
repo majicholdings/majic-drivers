@@ -1,0 +1,8 @@
+DriverVer=11/14/2023 3.5.0.1578
+Provider=Intel Corporation
+Class=System
+Published=oem58.inf
+Original=gna.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\gna.inf_amd64_8e2f374849f1eba9
+PackageMB=0.12
+CachedUtc=2026-07-16T07:50:10.0293280Z
