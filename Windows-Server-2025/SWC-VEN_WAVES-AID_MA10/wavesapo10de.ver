@@ -1,0 +1,8 @@
+DriverVer=01/15/2025 7.2.0.16933
+Provider=Waves
+Class=AudioProcessingObject
+Published=oem65.inf
+Original=wavesapo10de.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\wavesapo10de.inf_amd64_db3f3288eba6a142
+PackageMB=134.04
+CachedUtc=2026-07-16T08:28:48.5845242Z
