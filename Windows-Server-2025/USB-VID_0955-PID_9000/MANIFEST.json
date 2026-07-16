@@ -1,0 +1,19 @@
+{
+    "totalMB":  0.08,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvvad.inf_amd64_35079c3b2e98dd66",
+    "files":  [
+                  {
+                      "name":  "nvvad.cat",
+                      "size":  11655
+                  },
+                  {
+                      "name":  "nvvad.inf",
+                      "size":  8928
+                  },
+                  {
+                      "name":  "nvvad64v.sys",
+                      "size":  59928
+                  }
+              ],
+    "driverver":  "02/28/2024 4.65.0.3"
+}
