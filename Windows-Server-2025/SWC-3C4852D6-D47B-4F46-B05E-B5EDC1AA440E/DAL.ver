@@ -1,0 +1,8 @@
+DriverVer=03/31/2024 1.46.2024.221
+Provider=Intel
+Class=SoftwareComponent
+Published=oem10.inf
+Original=dal.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_8a3f88e34f6b8385
+PackageMB=1.82
+CachedUtc=2026-07-16T07:53:02.9791245Z
