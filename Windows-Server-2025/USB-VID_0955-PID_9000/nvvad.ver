@@ -1,0 +1,8 @@
+DriverVer=02/28/2024 4.65.0.3
+Provider=NVIDIA
+Class=MEDIA
+Published=oem75.inf
+Original=nvvad.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\nvvad.inf_amd64_35079c3b2e98dd66
+PackageMB=0.08
+CachedUtc=2026-07-16T08:31:15.3325991Z
