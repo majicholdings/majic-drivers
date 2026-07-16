@@ -1,0 +1,8 @@
+DriverVer=08/19/2025 32.0.101.7026
+Provider=Intel Corporation
+Class=MEDIA
+Published=oem6.inf
+Original=mshdadac.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\mshdadac.inf_amd64_aaa1a78938974939
+PackageMB=0.09
+CachedUtc=2026-07-16T09:01:23.1068528Z
