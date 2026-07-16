@@ -1,0 +1,19 @@
+{
+    "totalMB":  1.28,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\e3k25cx21x64.inf_amd64_f1f0ef01f5216997",
+    "files":  [
+                  {
+                      "name":  "e3k25cx21x64.cat",
+                      "size":  13048
+                  },
+                  {
+                      "name":  "e3k25cx21x64.inf",
+                      "size":  410228
+                  },
+                  {
+                      "name":  "e3k25cx21x64.sys",
+                      "size":  921128
+                  }
+              ],
+    "driverver":  "09/19/2025 1125.27.50.919"
+}
