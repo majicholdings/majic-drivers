@@ -1,0 +1,8 @@
+DriverVer=12/01/2025 1.4.5.7
+Provider=NVIDIA Corporation
+Class=MEDIA
+Published=oem74.inf
+Original=nvhda.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\nvhda.inf_amd64_9074816b745183b4
+PackageMB=0.19
+CachedUtc=2026-07-16T08:59:21.5187956Z
