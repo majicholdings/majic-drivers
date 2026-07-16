@@ -1,0 +1,147 @@
+{
+    "totalMB":  134.04,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\wavesapo10de.inf_amd64_db3f3288eba6a142",
+    "files":  [
+                  {
+                      "name":  "AMD_MA10_Coefs64.dll",
+                      "size":  398624
+                  },
+                  {
+                      "name":  "AMD_MA8_Coefs64.dll",
+                      "size":  329480
+                  },
+                  {
+                      "name":  "CFL_MA8_Full_Coefs64.dll",
+                      "size":  473352
+                  },
+                  {
+                      "name":  "CFL_MA8_Reduced_Coefs64.dll",
+                      "size":  326408
+                  },
+                  {
+                      "name":  "CFL_MA9_Full_Coefs64.dll",
+                      "size":  454920
+                  },
+                  {
+                      "name":  "CFL_MA9_Reduced_Coefs64.dll",
+                      "size":  317696
+                  },
+                  {
+                      "name":  "face.xml",
+                      "size":  861012
+                  },
+                  {
+                      "name":  "HeadTracker.bin",
+                      "size":  19746456
+                  },
+                  {
+                      "name":  "HeadTrackerLib.dll",
+                      "size":  6684960
+                  },
+                  {
+                      "name":  "IntelOpenVINO.cab",
+                      "size":  24928723
+                  },
+                  {
+                      "name":  "ISST_MA10_Full_Coefs64.dll",
+                      "size":  501024
+                  },
+                  {
+                      "name":  "ISST_MA10_Reduced_Coefs64.dll",
+                      "size":  332552
+                  },
+                  {
+                      "name":  "ISST_MA11_Full_Coefs64.dll",
+                      "size":  883976
+                  },
+                  {
+                      "name":  "ISST_MA11_Full_Coefs64_11_1.dll",
+                      "size":  678664
+                  },
+                  {
+                      "name":  "ISST_MA11_Reduced_Coefs64.dll",
+                      "size":  681224
+                  },
+                  {
+                      "name":  "ISST_MA11_Reduced_Coefs64_11_1.dll",
+                      "size":  478472
+                  },
+                  {
+                      "name":  "KblCoefsRender51064.dll",
+                      "size":  275720
+                  },
+                  {
+                      "name":  "KblCoefsRender51164.dll",
+                      "size":  283904
+                  },
+                  {
+                      "name":  "KblCoefsRender51264.dll",
+                      "size":  283912
+                  },
+                  {
+                      "name":  "MaxxAudioAPOShell64.dll",
+                      "size":  4001544
+                  },
+                  {
+                      "name":  "MaxxAudioAPOShellRPCNative64.dll",
+                      "size":  437000
+                  },
+                  {
+                      "name":  "MaxxAudioCapture64.dll",
+                      "size":  23821880
+                  },
+                  {
+                      "name":  "MaxxAudioIntelKabylake64.dll",
+                      "size":  1532168
+                  },
+                  {
+                      "name":  "MaxxAudioRender64.dll",
+                      "size":  19965696
+                  },
+                  {
+                      "name":  "MaxxAudioRenderAVX64.dll",
+                      "size":  19770944
+                  },
+                  {
+                      "name":  "NNResources64_MA105.dll",
+                      "size":  749320
+                  },
+                  {
+                      "name":  "SSTtoAPO64.dll",
+                      "size":  412936
+                  },
+                  {
+                      "name":  "VoIPAutomaticDetection.xml",
+                      "size":  6783
+                  },
+                  {
+                      "name":  "WavesAPO10De.cat",
+                      "size":  580582
+                  },
+                  {
+                      "name":  "wavesapo10de.inf",
+                      "size":  23788
+                  },
+                  {
+                      "name":  "wavesapo10de.PNF",
+                      "size":  43732
+                  },
+                  {
+                      "name":  "WavesAudioService.exe",
+                      "size":  163592
+                  },
+                  {
+                      "name":  "WavesAudioService.exe.config",
+                      "size":  186
+                  },
+                  {
+                      "name":  "WavesSvc64.exe",
+                      "size":  5295368
+                  },
+                  {
+                      "name":  "WavesSysSvc64.exe",
+                      "size":  4827400
+                  }
+              ],
+    "driverver":  "01/15/2025 7.2.0.16933"
+}
