@@ -1,0 +1,19 @@
+{
+    "totalMB":  1.43,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\systemconfigprovider_sw.inf_amd64_bdf14616d65c80ae",
+    "files":  [
+                  {
+                      "name":  "SystemConfigProvider.dll",
+                      "size":  1480992
+                  },
+                  {
+                      "name":  "SystemConfigProvider_sw.cat",
+                      "size":  11596
+                  },
+                  {
+                      "name":  "SystemConfigProvider_sw.inf",
+                      "size":  3834
+                  }
+              ],
+    "driverver":  "01/17/2026 3.4.1005.0"
+}
