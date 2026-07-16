@@ -1,0 +1,8 @@
+DriverVer=01/17/2026 3.4.1005.0
+Provider=Intel
+Class=SoftwareComponent
+Published=oem27.inf
+Original=modsprovider_sw.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\modsprovider_sw.inf_amd64_fc7b0b8d524470a8
+PackageMB=2.21
+CachedUtc=2026-07-16T08:32:04.8918312Z
