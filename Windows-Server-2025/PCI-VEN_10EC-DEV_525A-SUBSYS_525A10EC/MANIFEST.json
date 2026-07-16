@@ -1,0 +1,23 @@
+{
+    "totalMB":  11.75,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\rtsperdlnqs.inf_amd64_c29e9a8a596a31a3",
+    "files":  [
+                  {
+                      "name":  "RsCRIcon.dll",
+                      "size":  10317120
+                  },
+                  {
+                      "name":  "RtsPer.sys",
+                      "size":  1478976
+                  },
+                  {
+                      "name":  "RtsPer64.cat",
+                      "size":  336475
+                  },
+                  {
+                      "name":  "RtsPerDLnQS.inf",
+                      "size":  186143
+                  }
+              ],
+    "driverver":  "06/26/2024 10.0.26100.21374"
+}
