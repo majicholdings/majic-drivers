@@ -1,0 +1,19 @@
+{
+    "totalMB":  0.82,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\igcl_ipf_provider_sw.inf_amd64_4a41ffeba2dc67d0",
+    "files":  [
+                  {
+                      "name":  "IGCLIPFProvider.dll",
+                      "size":  844072
+                  },
+                  {
+                      "name":  "igcl_ipf_provider_sw.cat",
+                      "size":  11471
+                  },
+                  {
+                      "name":  "igcl_IPF_provider_sw.inf",
+                      "size":  4112
+                  }
+              ],
+    "driverver":  "08/05/2025 16.1.0.257"
+}
