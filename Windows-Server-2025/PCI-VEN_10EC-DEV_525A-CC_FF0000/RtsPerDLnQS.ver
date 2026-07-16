@@ -1,0 +1,8 @@
+DriverVer=06/26/2024 10.0.26100.21374
+Provider=Realtek Semiconductor Corp.
+Class=MTD
+Published=oem56.inf
+Original=rtsperdlnqs.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\rtsperdlnqs.inf_amd64_c29e9a8a596a31a3
+PackageMB=11.75
+CachedUtc=2026-07-16T08:31:49.7350236Z
