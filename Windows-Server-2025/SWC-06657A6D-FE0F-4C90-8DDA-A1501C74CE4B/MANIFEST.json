@@ -1,0 +1,135 @@
+{
+    "totalMB":  2.44,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_b966ea70c5407e74",
+    "files":  [
+                  {
+                      "name":  "MEProv.dll",
+                      "size":  2272296
+                  },
+                  {
+                      "name":  "MEWMIProv.cat",
+                      "size":  24536
+                  },
+                  {
+                      "name":  "MEWMIProv.inf",
+                      "size":  5635
+                  },
+                  {
+                      "name":  "WMIRegistrationService.exe",
+                      "size":  144016
+                  },
+                  {
+                      "name":  "ME\\ME_Schema.mof",
+                      "size":  1449
+                  },
+                  {
+                      "name":  "ME\\register.mof",
+                      "size":  862
+                  },
+                  {
+                      "name":  "ME\\remove.mof",
+                      "size":  182
+                  },
+                  {
+                      "name":  "ME\\wmi_build.mof",
+                      "size":  435
+                  },
+                  {
+                      "name":  "ME\\MEMofs\\AMT_ConcreteComponent.mof",
+                      "size":  2215
+                  },
+                  {
+                      "name":  "ME\\MEMofs\\AMT_EthernetPortSettings.mof",
+                      "size":  1783
+                  },
+                  {
+                      "name":  "ME\\MEMofs\\AMT_HostedService.mof",
+                      "size":  800
+                  },
+                  {
+                      "name":  "ME\\MEMofs\\AMT_ProvisioningCertificateHash.mof",
+                      "size":  1517
+                  },
+                  {
+                      "name":  "ME\\MEMofs\\AMT_Service.mof",
+                      "size":  3281
+                  },
+                  {
+                      "name":  "ME\\MEMofs\\AMT_SetupAuditRecord.mof",
+                      "size":  2541
+                  },
+                  {
+                      "name":  "ME\\MEMofs\\ME_Event.mof",
+                      "size":  706
+                  },
+                  {
+                      "name":  "ME\\MEMofs\\ME_System.mof",
+                      "size":  7130
+                  },
+                  {
+                      "name":  "ME\\MEMofs\\OOB_Service.mof",
+                      "size":  6483
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_Component.mof",
+                      "size":  961
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_ConcreteJob.mof",
+                      "size":  8731
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_Dependency.mof",
+                      "size":  1051
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_EnabledLogicalElement.mof",
+                      "size":  10869
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_Job.mof",
+                      "size":  14464
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_LogicalElement.mof",
+                      "size":  691
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_ManagedElement.mof",
+                      "size":  3623
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_ManagedSystemElement.mof",
+                      "size":  10266
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_Service.mof",
+                      "size":  6888
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_SettingData.mof",
+                      "size":  4596
+                  },
+                  {
+                      "name":  "ME\\s\\Core\\CIM_System.mof",
+                      "size":  5737
+                  },
+                  {
+                      "name":  "ME\\s\\System\\CIM_ComputerSystem.mof",
+                      "size":  9795
+                  },
+                  {
+                      "name":  "ME\\s\\System\\CIM_LogEntry.mof",
+                      "size":  2794
+                  },
+                  {
+                      "name":  "ME\\s\\System\\CIM_RecordForLog.mof",
+                      "size":  4018
+                  },
+                  {
+                      "name":  "ME\\s\\User\\CIM_Credential.mof",
+                      "size":  2910
+                  }
+              ],
+    "driverver":  "07/10/2024 2428.6.4.0"
+}
