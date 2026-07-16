@@ -1,0 +1,8 @@
+DriverVer=07/30/2025 30.100.2531.31
+Provider=Intel Corporation
+Class=System
+Published=oem51.inf
+Original=ialpss2_uart2_adl.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\ialpss2_uart2_adl.inf_amd64_783134e535750bf8
+PackageMB=0.33
+CachedUtc=2026-07-16T09:19:08.3807554Z
