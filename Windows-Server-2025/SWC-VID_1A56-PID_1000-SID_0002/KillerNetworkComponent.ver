@@ -1,0 +1,8 @@
+DriverVer=01/07/2026 40.26.107.202
+Provider=Intel Corporation
+Class=SoftwareComponent
+Published=oem71.inf
+Original=killernetworkcomponent.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\killernetworkcomponent.inf_amd64_b2c3adfde35e08be
+PackageMB=182
+CachedUtc=2026-07-16T08:30:07.3060918Z
