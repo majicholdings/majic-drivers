@@ -1,0 +1,8 @@
+DriverVer=08/19/2025 32.0.101.7026
+Provider=Intel Corporation
+Class=Display
+Published=oem4.inf
+Original=iigd_dch.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_ea3add6a86481654
+PackageMB=2253.15
+CachedUtc=2026-07-16T08:03:26.8619563Z
