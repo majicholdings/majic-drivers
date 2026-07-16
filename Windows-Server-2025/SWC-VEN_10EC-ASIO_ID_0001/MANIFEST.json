@@ -1,0 +1,27 @@
+{
+    "totalMB":  0.58,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekasio.inf_amd64_03c8a3842bd3222b",
+    "files":  [
+                  {
+                      "name":  "RealtekASIO.cat",
+                      "size":  12341
+                  },
+                  {
+                      "name":  "realtekasio.inf",
+                      "size":  3232
+                  },
+                  {
+                      "name":  "realtekasio.PNF",
+                      "size":  7916
+                  },
+                  {
+                      "name":  "RTHDASIO.dll",
+                      "size":  268272
+                  },
+                  {
+                      "name":  "RTHDASIO64.dll",
+                      "size":  313328
+                  }
+              ],
+    "driverver":  "08/28/2024 1.0.13.1"
+}
