@@ -1,0 +1,8 @@
+DriverVer=08/28/2024 1.0.13.1
+Provider=Realtek
+Class=SoftwareComponent
+Published=oem64.inf
+Original=realtekasio.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\realtekasio.inf_amd64_03c8a3842bd3222b
+PackageMB=0.58
+CachedUtc=2026-07-16T09:00:47.5079991Z
