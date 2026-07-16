@@ -1,0 +1,9 @@
+DriverVer=01/01/2020 1.0.0.0
+Provider=MajicTest
+Class=TestClass
+Published=oemtest.inf
+Original=majictest.inf
+SourceDriverStore=C:\fake\store
+Mode=full
+PackageMB=0.01
+CachedUtc=2026-07-16T05:36:07.8133184Z
