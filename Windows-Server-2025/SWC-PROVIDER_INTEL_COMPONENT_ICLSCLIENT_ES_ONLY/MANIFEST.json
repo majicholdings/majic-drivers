@@ -1,0 +1,111 @@
+{
+    "totalMB":  31.45,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\iclsclient.inf_amd64_c25dbc60ad3b371a",
+    "files":  [
+                  {
+                      "name":  "iclsClient.cat",
+                      "size":  26982
+                  },
+                  {
+                      "name":  "iclsClient.inf",
+                      "size":  18441
+                  },
+                  {
+                      "name":  "conf\\cacert.pem",
+                      "size":  6216
+                  },
+                  {
+                      "name":  "conf\\epid2_paramcert.dat",
+                      "size":  461
+                  },
+                  {
+                      "name":  "conf\\EPIDGroupCertLegacy.cer",
+                      "size":  4916072
+                  },
+                  {
+                      "name":  "conf\\EPIDGroupCertX509.cer",
+                      "size":  15172993
+                  },
+                  {
+                      "name":  "conf\\epid_paramcert.dat",
+                      "size":  876
+                  },
+                  {
+                      "name":  "conf\\iclsProxy.conf",
+                      "size":  1615
+                  },
+                  {
+                      "name":  "Documents\\development_tools.txt",
+                      "size":  13
+                  },
+                  {
+                      "name":  "Documents\\License.txt",
+                      "size":  21203
+                  },
+                  {
+                      "name":  "Documents\\Readme.txt",
+                      "size":  1087
+                  },
+                  {
+                      "name":  "Documents\\redist.txt",
+                      "size":  13
+                  },
+                  {
+                      "name":  "Documents\\Third Party Licenses.txt",
+                      "size":  32375
+                  },
+                  {
+                      "name":  "lib\\concrt140.dll",
+                      "size":  318944
+                  },
+                  {
+                      "name":  "lib\\iclsClient.dll",
+                      "size":  86112
+                  },
+                  {
+                      "name":  "lib\\iclsClientInternal.dll",
+                      "size":  1675872
+                  },
+                  {
+                      "name":  "lib\\iclsProxy.dll",
+                      "size":  124000
+                  },
+                  {
+                      "name":  "lib\\iclsProxyInternal.dll",
+                      "size":  1798136
+                  },
+                  {
+                      "name":  "lib\\IntelPTTEKRecertification.exe",
+                      "size":  858208
+                  },
+                  {
+                      "name":  "lib\\libcrypto-3-x64.dll",
+                      "size":  4827232
+                  },
+                  {
+                      "name":  "lib\\libssl-3-x64.dll",
+                      "size":  840312
+                  },
+                  {
+                      "name":  "lib\\msvcp140.dll",
+                      "size":  594912
+                  },
+                  {
+                      "name":  "lib\\PlatformLicenseManagerService.exe",
+                      "size":  742904
+                  },
+                  {
+                      "name":  "lib\\TPMProvisioningService.exe",
+                      "size":  764000
+                  },
+                  {
+                      "name":  "lib\\vcruntime140.dll",
+                      "size":  103904
+                  },
+                  {
+                      "name":  "lib\\vcruntime140_1.dll",
+                      "size":  46560
+                  }
+              ],
+    "driverver":  "08/01/2024 1.74.210.0"
+}
