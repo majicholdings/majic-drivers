@@ -1,0 +1,19 @@
+{
+    "totalMB":  0.34,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\heci.inf_amd64_0f5b7bb40dc5cf1b",
+    "files":  [
+                  {
+                      "name":  "HECI.cat",
+                      "size":  14797
+                  },
+                  {
+                      "name":  "heci.inf",
+                      "size":  16129
+                  },
+                  {
+                      "name":  "x64\\TeeDriverW10x64.sys",
+                      "size":  325488
+                  }
+              ],
+    "driverver":  "08/15/2024 2433.6.3.0"
+}
