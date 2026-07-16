@@ -1,0 +1,19 @@
+{
+    "totalMB":  0.19,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvhda.inf_amd64_9074816b745183b4",
+    "files":  [
+                  {
+                      "name":  "nvhda.cat",
+                      "size":  25642
+                  },
+                  {
+                      "name":  "nvhda.inf",
+                      "size":  42948
+                  },
+                  {
+                      "name":  "nvhda64v.sys",
+                      "size":  127208
+                  }
+              ],
+    "driverver":  "12/01/2025 1.4.5.7"
+}
