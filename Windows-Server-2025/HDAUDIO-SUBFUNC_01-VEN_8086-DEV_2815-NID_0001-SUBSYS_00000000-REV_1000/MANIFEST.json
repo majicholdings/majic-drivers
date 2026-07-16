@@ -1,0 +1,15 @@
+{
+    "totalMB":  0.09,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\mshdadac.inf_amd64_aaa1a78938974939",
+    "files":  [
+                  {
+                      "name":  "AcxDAC.cat",
+                      "size":  54458
+                  },
+                  {
+                      "name":  "mshdadac.inf",
+                      "size":  44454
+                  }
+              ],
+    "driverver":  "08/19/2025 32.0.101.7026"
+}
