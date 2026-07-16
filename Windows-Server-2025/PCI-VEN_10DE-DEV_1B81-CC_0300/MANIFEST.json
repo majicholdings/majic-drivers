@@ -1,6 +1,6 @@
 {
-    "totalMB":  2516.87,
-    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvmdi.inf_amd64_749ff44082d5b9bf",
+    "totalMB":  2517.63,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvddi.inf_amd64_f7c440b5f0f99793",
     "files":  [
                   {
                       "name":  "dbInstaller.exe",
@@ -191,6 +191,14 @@
                       "size":  45510784
                   },
                   {
+                      "name":  "nvddi.inf",
+                      "size":  798319
+                  },
+                  {
+                      "name":  "nvddi.PNF",
+                      "size":  1266908
+                  },
+                  {
                       "name":  "nvdebugdump.exe",
                       "size":  468712
                   },
@@ -353,14 +361,6 @@
                   {
                       "name":  "nvlicensingsr.dll",
                       "size":  363752
-                  },
-                  {
-                      "name":  "nvmdi.inf",
-                      "size":  480451
-                  },
-                  {
-                      "name":  "nvmdi.PNF",
-                      "size":  792732
                   },
                   {
                       "name":  "NvMemMapStorage.dll",
