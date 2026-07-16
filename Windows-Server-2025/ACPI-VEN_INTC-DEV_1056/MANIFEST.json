@@ -1,0 +1,19 @@
+{
+    "totalMB":  0.16,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_gpio2_adl.inf_amd64_c804e238af0965e6",
+    "files":  [
+                  {
+                      "name":  "iaLPSS2_GPIO2_ADL.cat",
+                      "size":  15791
+                  },
+                  {
+                      "name":  "iaLPSS2_GPIO2_ADL.inf",
+                      "size":  7570
+                  },
+                  {
+                      "name":  "iaLPSS2_GPIO2_ADL.sys",
+                      "size":  142800
+                  }
+              ],
+    "driverver":  "07/30/2025 30.100.2531.31"
+}
