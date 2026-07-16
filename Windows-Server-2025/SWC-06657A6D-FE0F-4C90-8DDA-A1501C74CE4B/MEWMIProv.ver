@@ -1,0 +1,8 @@
+DriverVer=07/10/2024 2428.6.4.0
+Provider=Intel
+Class=SoftwareComponent
+Published=oem12.inf
+Original=mewmiprov.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_b966ea70c5407e74
+PackageMB=2.44
+CachedUtc=2026-07-16T08:28:13.9801184Z
