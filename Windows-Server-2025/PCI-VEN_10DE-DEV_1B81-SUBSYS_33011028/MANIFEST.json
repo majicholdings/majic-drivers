@@ -1,0 +1,807 @@
+{
+    "totalMB":  2517.63,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvddi.inf_amd64_f7c440b5f0f99793",
+    "files":  [
+                  {
+                      "name":  "dbInstaller.exe",
+                      "size":  827624
+                  },
+                  {
+                      "name":  "gsp_ga10x.bin",
+                      "size":  74987504
+                  },
+                  {
+                      "name":  "gsp_tu10x.bin",
+                      "size":  30458968
+                  },
+                  {
+                      "name":  "libcuda.so.1.1",
+                      "size":  26955240
+                  },
+                  {
+                      "name":  "libcudadebugger.so.1",
+                      "size":  10444456
+                  },
+                  {
+                      "name":  "libcuda_loader.so",
+                      "size":  175248
+                  },
+                  {
+                      "name":  "libnvcuvid.so.1",
+                      "size":  20548432
+                  },
+                  {
+                      "name":  "libnvdxdlkernels.so",
+                      "size":  153723328
+                  },
+                  {
+                      "name":  "libnvdxgdmal.so.1",
+                      "size":  63488
+                  },
+                  {
+                      "name":  "libnvidia-encode.so.1",
+                      "size":  264328
+                  },
+                  {
+                      "name":  "libnvidia-gpucomp.so",
+                      "size":  72113672
+                  },
+                  {
+                      "name":  "libnvidia-ml.so.1",
+                      "size":  2050232
+                  },
+                  {
+                      "name":  "libnvidia-ml_loader.so",
+                      "size":  266720
+                  },
+                  {
+                      "name":  "libnvidia-ngx.so.1",
+                      "size":  4590616
+                  },
+                  {
+                      "name":  "libnvidia-nvvm.so.4",
+                      "size":  22942040
+                  },
+                  {
+                      "name":  "libnvidia-nvvm70.so.4",
+                      "size":  24821264
+                  },
+                  {
+                      "name":  "libnvidia-opticalflow.so.1",
+                      "size":  71760
+                  },
+                  {
+                      "name":  "libnvidia-ptxjitcompiler.so.1",
+                      "size":  43331384
+                  },
+                  {
+                      "name":  "libnvoptix_loader.so.1",
+                      "size":  10056
+                  },
+                  {
+                      "name":  "libnvwgf2umx.so",
+                      "size":  101370320
+                  },
+                  {
+                      "name":  "license.txt",
+                      "size":  55339
+                  },
+                  {
+                      "name":  "MCU.exe",
+                      "size":  853736
+                  },
+                  {
+                      "name":  "nv-vk32.json",
+                      "size":  1182
+                  },
+                  {
+                      "name":  "nv-vk64.json",
+                      "size":  1182
+                  },
+                  {
+                      "name":  "nv-vksc64.json",
+                      "size":  1179
+                  },
+                  {
+                      "name":  "nv3dappshext.dll",
+                      "size":  1006312
+                  },
+                  {
+                      "name":  "nv3dappshextr.dll",
+                      "size":  98536
+                  },
+                  {
+                      "name":  "nvAIDVC.dll",
+                      "size":  2891496
+                  },
+                  {
+                      "name":  "nvAIDVCx.dll",
+                      "size":  2998504
+                  },
+                  {
+                      "name":  "nvAIHDR.dll",
+                      "size":  3953048
+                  },
+                  {
+                      "name":  "nvAIHDRx.dll",
+                      "size":  4085304
+                  },
+                  {
+                      "name":  "nvAIVPx.dll",
+                      "size":  9280232
+                  },
+                  {
+                      "name":  "nvapi.dll",
+                      "size":  4925696
+                  },
+                  {
+                      "name":  "nvapi64.dll",
+                      "size":  5627096
+                  },
+                  {
+                      "name":  "nvcoproc.bin",
+                      "size":  12634106
+                  },
+                  {
+                      "name":  "nvcpl.dll",
+                      "size":  5919464
+                  },
+                  {
+                      "name":  "nvcubins.bin",
+                      "size":  80053708
+                  },
+                  {
+                      "name":  "nvcuda32.dll",
+                      "size":  44951272
+                  },
+                  {
+                      "name":  "nvcuda64.dll",
+                      "size":  34562280
+                  },
+                  {
+                      "name":  "nvcudadebugger.dll",
+                      "size":  5469928
+                  },
+                  {
+                      "name":  "nvcudart_hybrid64.dll",
+                      "size":  1068264
+                  },
+                  {
+                      "name":  "nvcuda_loader32.dll",
+                      "size":  7683304
+                  },
+                  {
+                      "name":  "nvcuda_loader64.dll",
+                      "size":  4175080
+                  },
+                  {
+                      "name":  "nvcuvid32.dll",
+                      "size":  21715176
+                  },
+                  {
+                      "name":  "nvcuvid64.dll",
+                      "size":  24678120
+                  },
+                  {
+                      "name":  "nvd3dum.dll",
+                      "size":  70415528
+                  },
+                  {
+                      "name":  "nvd3dumx.dll",
+                      "size":  45510784
+                  },
+                  {
+                      "name":  "nvddi.inf",
+                      "size":  798319
+                  },
+                  {
+                      "name":  "nvddi.PNF",
+                      "size":  1266908
+                  },
+                  {
+                      "name":  "nvdebugdump.exe",
+                      "size":  468712
+                  },
+                  {
+                      "name":  "nvDecMFTMjpeg.dll",
+                      "size":  511720
+                  },
+                  {
+                      "name":  "nvDecMFTMjpegx.dll",
+                      "size":  667880
+                  },
+                  {
+                      "name":  "nvdevtools.dll",
+                      "size":  4604648
+                  },
+                  {
+                      "name":  "nvdevtoolsr.dll",
+                      "size":  245992
+                  },
+                  {
+                      "name":  "nvdirectsr.dll",
+                      "size":  25025768
+                  },
+                  {
+                      "name":  "nvdispco64.exe",
+                      "size":  1740520
+                  },
+                  {
+                      "name":  "nvdisps.dll",
+                      "size":  11668712
+                  },
+                  {
+                      "name":  "nvdispsr.dll",
+                      "size":  11574504
+                  },
+                  {
+                      "name":  "nvdlist.dll",
+                      "size":  205496
+                  },
+                  {
+                      "name":  "nvdlistx.dll",
+                      "size":  243024
+                  },
+                  {
+                      "name":  "nvdlppx.dll",
+                      "size":  25398304
+                  },
+                  {
+                      "name":  "nvdrsdb.bin",
+                      "size":  2091500
+                  },
+                  {
+                      "name":  "nvdxdlkernels.dll",
+                      "size":  173933800
+                  },
+                  {
+                      "name":  "nvdxgdmal32.dll",
+                      "size":  483048
+                  },
+                  {
+                      "name":  "nvdxgdmal64.dll",
+                      "size":  614632
+                  },
+                  {
+                      "name":  "nvEncMFTH264.dll",
+                      "size":  899304
+                  },
+                  {
+                      "name":  "nvEncMFTH264x.dll",
+                      "size":  1146088
+                  },
+                  {
+                      "name":  "nvEncMFThevc.dll",
+                      "size":  909544
+                  },
+                  {
+                      "name":  "nvEncMFThevcx.dll",
+                      "size":  1162472
+                  },
+                  {
+                      "name":  "nvEncodeAPI.dll",
+                      "size":  814824
+                  },
+                  {
+                      "name":  "nvEncodeAPI64.dll",
+                      "size":  1059560
+                  },
+                  {
+                      "name":  "NvFBC.dll",
+                      "size":  1716968
+                  },
+                  {
+                      "name":  "NvFBC64.dll",
+                      "size":  2318568
+                  },
+                  {
+                      "name":  "nvgames.dll",
+                      "size":  12514536
+                  },
+                  {
+                      "name":  "nvgamesr.dll",
+                      "size":  13321960
+                  },
+                  {
+                      "name":  "nvgpucomp32.dll",
+                      "size":  53195624
+                  },
+                  {
+                      "name":  "nvgpucomp64.dll",
+                      "size":  64918160
+                  },
+                  {
+                      "name":  "nvIccAdvancedColorIdentity.icm",
+                      "size":  3288
+                  },
+                  {
+                      "name":  "nvidia-ngx-updater",
+                      "size":  5022864
+                  },
+                  {
+                      "name":  "nvidia-pcc.exe",
+                      "size":  26361064
+                  },
+                  {
+                      "name":  "nvidia-smi",
+                      "size":  849656
+                  },
+                  {
+                      "name":  "nvidia-smi.exe",
+                      "size":  1616104
+                  },
+                  {
+                      "name":  "NvIFR.dll",
+                      "size":  1223912
+                  },
+                  {
+                      "name":  "NvIFR64.dll",
+                      "size":  1574120
+                  },
+                  {
+                      "name":  "nvinfo.pb",
+                      "size":  149181
+                  },
+                  {
+                      "name":  "nvlddmkm.sys",
+                      "size":  110640872
+                  },
+                  {
+                      "name":  "nvldumd.dll",
+                      "size":  651784
+                  },
+                  {
+                      "name":  "nvldumdx.dll",
+                      "size":  817576
+                  },
+                  {
+                      "name":  "nvlicensings.dll",
+                      "size":  4586216
+                  },
+                  {
+                      "name":  "nvlicensingsr.dll",
+                      "size":  363752
+                  },
+                  {
+                      "name":  "NvMemMapStorage.dll",
+                      "size":  718224
+                  },
+                  {
+                      "name":  "NvMemMapStorageax.dll",
+                      "size":  1038864
+                  },
+                  {
+                      "name":  "NvMemMapStorageaxec.dll",
+                      "size":  1246728
+                  },
+                  {
+                      "name":  "NvMemMapStoragex.dll",
+                      "size":  919936
+                  },
+                  {
+                      "name":  "nvml.dll",
+                      "size":  3310312
+                  },
+                  {
+                      "name":  "nvml_loader.dll",
+                      "size":  1333480
+                  },
+                  {
+                      "name":  "nvngx.dll",
+                      "size":  488816
+                  },
+                  {
+                      "name":  "nvngx_update.exe",
+                      "size":  969448
+                  },
+                  {
+                      "name":  "nvofapi.dll",
+                      "size":  510184
+                  },
+                  {
+                      "name":  "nvofapi64.dll",
+                      "size":  676584
+                  },
+                  {
+                      "name":  "nvoglv32.dll",
+                      "size":  26423016
+                  },
+                  {
+                      "name":  "nvoglv64.dll",
+                      "size":  42736872
+                  },
+                  {
+                      "name":  "nvopencl32.dll",
+                      "size":  40061672
+                  },
+                  {
+                      "name":  "nvopencl64.dll",
+                      "size":  35555048
+                  },
+                  {
+                      "name":  "nvoptix.bin",
+                      "size":  60858204
+                  },
+                  {
+                      "name":  "nvoptix.dll",
+                      "size":  105622248
+                  },
+                  {
+                      "name":  "nvppe.dll",
+                      "size":  1335416
+                  },
+                  {
+                      "name":  "nvppex.dll",
+                      "size":  1826400
+                  },
+                  {
+                      "name":  "NvPresent64.dll",
+                      "size":  76369640
+                  },
+                  {
+                      "name":  "nvptxJitCompiler32.dll",
+                      "size":  24330472
+                  },
+                  {
+                      "name":  "nvptxJitCompiler64.dll",
+                      "size":  27856616
+                  },
+                  {
+                      "name":  "nvrtum64.dll",
+                      "size":  116378856
+                  },
+                  {
+                      "name":  "nvshext.dll",
+                      "size":  133864
+                  },
+                  {
+                      "name":  "nvsmartmax.dll",
+                      "size":  201448
+                  },
+                  {
+                      "name":  "nvsmartmax64.dll",
+                      "size":  237800
+                  },
+                  {
+                      "name":  "nvsmartmaxapp.exe",
+                      "size":  274664
+                  },
+                  {
+                      "name":  "nvsmartmaxapp64.exe",
+                      "size":  285416
+                  },
+                  {
+                      "name":  "nvsvc64.dll",
+                      "size":  2678504
+                  },
+                  {
+                      "name":  "nvsvcr.dll",
+                      "size":  1801960
+                  },
+                  {
+                      "name":  "nvsvs.dll",
+                      "size":  5113576
+                  },
+                  {
+                      "name":  "nvsvsr.dll",
+                      "size":  2012392
+                  },
+                  {
+                      "name":  "NvTelemetry64.dll",
+                      "size":  6468728
+                  },
+                  {
+                      "name":  "nvui.dll",
+                      "size":  6671080
+                  },
+                  {
+                      "name":  "nvuir.dll",
+                      "size":  2650344
+                  },
+                  {
+                      "name":  "nvvitvs.dll",
+                      "size":  7474920
+                  },
+                  {
+                      "name":  "nvvitvsr.dll",
+                      "size":  4264168
+                  },
+                  {
+                      "name":  "nvvkscv64.dll",
+                      "size":  12180712
+                  },
+                  {
+                      "name":  "nvvm32.dll",
+                      "size":  60601576
+                  },
+                  {
+                      "name":  "nvvm64.dll",
+                      "size":  68880104
+                  },
+                  {
+                      "name":  "nvvm70.dll",
+                      "size":  18980072
+                  },
+                  {
+                      "name":  "nvwgf2um.dll",
+                      "size":  64258440
+                  },
+                  {
+                      "name":  "nvwgf2umx.dll",
+                      "size":  93251896
+                  },
+                  {
+                      "name":  "nvwss.dll",
+                      "size":  12281064
+                  },
+                  {
+                      "name":  "nvwssr.dll",
+                      "size":  9530088
+                  },
+                  {
+                      "name":  "nvxdapix.dll",
+                      "size":  9593064
+                  },
+                  {
+                      "name":  "nvxdbat.dll",
+                      "size":  1658600
+                  },
+                  {
+                      "name":  "nvxdplcy.dll",
+                      "size":  1901288
+                  },
+                  {
+                      "name":  "NV_DISP.CAT",
+                      "size":  4361466
+                  },
+                  {
+                      "name":  "OpenCL32.dll",
+                      "size":  375016
+                  },
+                  {
+                      "name":  "OpenCL64.dll",
+                      "size":  478440
+                  },
+                  {
+                      "name":  "OscTool.exe",
+                      "size":  2378984
+                  },
+                  {
+                      "name":  "vulkan-1-x64.dll",
+                      "size":  1581968
+                  },
+                  {
+                      "name":  "vulkan-1-x86.dll",
+                      "size":  1395592
+                  },
+                  {
+                      "name":  "vulkaninfo-x64.exe",
+                      "size":  2402696
+                  },
+                  {
+                      "name":  "vulkaninfo-x86.exe",
+                      "size":  1908112
+                  },
+                  {
+                      "name":  "_nvngx.dll",
+                      "size":  1412328
+                  },
+                  {
+                      "name":  "Display.NvContainer\\dlsargs.xml",
+                      "size":  544
+                  },
+                  {
+                      "name":  "Display.NvContainer\\dlsnetparams.csv",
+                      "size":  459786
+                  },
+                  {
+                      "name":  "Display.NvContainer\\messagebus_client.conf",
+                      "size":  313
+                  },
+                  {
+                      "name":  "Display.NvContainer\\NvContainerRecovery.bat",
+                      "size":  1951
+                  },
+                  {
+                      "name":  "Display.NvContainer\\NVDisplay.Container.exe",
+                      "size":  1275624
+                  },
+                  {
+                      "name":  "Display.NvContainer\\nvgwls.exe",
+                      "size":  3727080
+                  },
+                  {
+                      "name":  "Display.NvContainer\\NvMessageBus.dll",
+                      "size":  3535520
+                  },
+                  {
+                      "name":  "Display.NvContainer\\nvtopps.db3",
+                      "size":  126976
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\LocalSystem\\messagebus.conf",
+                      "size":  313
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\LocalSystem\\NvcDispCorePlugin.dll",
+                      "size":  522984
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\LocalSystem\\NvcDispWatchdog.dll",
+                      "size":  760552
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\LocalSystem\\NvXDCore.dll",
+                      "size":  1959656
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\LocalSystem\\wksServicePluginZ.dll",
+                      "size":  293608
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\LocalSystem\\_DisplayDriverRAS.dll",
+                      "size":  2551528
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\LocalSystem\\_NvMsgBusBroadcast.dll",
+                      "size":  3521184
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\LocalSystem\\_nvtopps.dll",
+                      "size":  13127912
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\Session\\nvprofileupdaterplugin.dll",
+                      "size":  1980136
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\Session\\nvxdsyncplugin.dll",
+                      "size":  1846504
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\Session\\wksServicePlugin.dll",
+                      "size":  339176
+                  },
+                  {
+                      "name":  "Display.NvContainer\\plugins\\Session\\_NvGSTPlugin.dll",
+                      "size":  2654952
+                  },
+                  {
+                      "name":  "NvCamera\\d3dcompiler_47_32.dll",
+                      "size":  3710696
+                  },
+                  {
+                      "name":  "NvCamera\\d3dcompiler_47_64.dll",
+                      "size":  4472552
+                  },
+                  {
+                      "name":  "NvCamera\\FreqTransfer32.exe",
+                      "size":  3743976
+                  },
+                  {
+                      "name":  "NvCamera\\FreqTransfer64.exe",
+                      "size":  4069096
+                  },
+                  {
+                      "name":  "NvCamera\\GreenScreenBG01.jpg",
+                      "size":  281528
+                  },
+                  {
+                      "name":  "NvCamera\\GreenScreenBG02.jpg",
+                      "size":  499736
+                  },
+                  {
+                      "name":  "NvCamera\\HighresBlender32.exe",
+                      "size":  3829992
+                  },
+                  {
+                      "name":  "NvCamera\\HighresBlender64.exe",
+                      "size":  4159720
+                  },
+                  {
+                      "name":  "NvCamera\\NvCamera32.dll",
+                      "size":  8300128
+                  },
+                  {
+                      "name":  "NvCamera\\NvCamera64.dll",
+                      "size":  8837288
+                  },
+                  {
+                      "name":  "NvCamera\\NvCameraAllowlisting32.dll",
+                      "size":  530824
+                  },
+                  {
+                      "name":  "NvCamera\\NvCameraAllowlisting64.dll",
+                      "size":  661128
+                  },
+                  {
+                      "name":  "NvCamera\\NvCameraEnable.exe",
+                      "size":  384232
+                  },
+                  {
+                      "name":  "NvCamera\\NvImageConvert32.exe",
+                      "size":  3760872
+                  },
+                  {
+                      "name":  "NvCamera\\NvImageConvert64.exe",
+                      "size":  4058856
+                  },
+                  {
+                      "name":  "NvCamera\\ReShadeFXC32.exe",
+                      "size":  869608
+                  },
+                  {
+                      "name":  "NvCamera\\ReShadeFXC64.exe",
+                      "size":  958184
+                  },
+                  {
+                      "name":  "NvCamera\\scratches.jpg",
+                      "size":  346354
+                  },
+                  {
+                      "name":  "NvCamera\\ShotWithGeforce518x32.rgba",
+                      "size":  66304
+                  },
+                  {
+                      "name":  "NvCamera\\SphericalEquirect32.exe",
+                      "size":  3583720
+                  },
+                  {
+                      "name":  "NvCamera\\SphericalEquirect64.exe",
+                      "size":  3828456
+                  },
+                  {
+                      "name":  "NvCamera\\Sticker01.png",
+                      "size":  49695
+                  },
+                  {
+                      "name":  "NvCamera\\Sticker02.png",
+                      "size":  474002
+                  },
+                  {
+                      "name":  "NvCamera\\Sticker03.png",
+                      "size":  380006
+                  },
+                  {
+                      "name":  "NvCamera\\Sticker04.png",
+                      "size":  86881
+                  },
+                  {
+                      "name":  "NvCamera\\Sticker05.png",
+                      "size":  59304
+                  },
+                  {
+                      "name":  "NvCamera\\Sticker06.png",
+                      "size":  13547
+                  },
+                  {
+                      "name":  "NvCamera\\Sticker07.png",
+                      "size":  6342
+                  },
+                  {
+                      "name":  "NvCamera\\Sticker08.png",
+                      "size":  96493
+                  },
+                  {
+                      "name":  "NvCamera\\tools_licenses.txt",
+                      "size":  15970
+                  },
+                  {
+                      "name":  "NvCamera\\ui.tga",
+                      "size":  121321
+                  },
+                  {
+                      "name":  "NVWMI\\nvPerfProvider.man",
+                      "size":  14175
+                  },
+                  {
+                      "name":  "NVWMI\\nvWmi.mof",
+                      "size":  148921
+                  },
+                  {
+                      "name":  "NVWMI\\nvWmi64.exe",
+                      "size":  4556520
+                  }
+              ],
+    "driverver":  "06/09/2026 32.0.15.8266"
+}
