@@ -1,0 +1,39 @@
+{
+    "totalMB":  1.82,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_8a3f88e34f6b8385",
+    "files":  [
+                  {
+                      "name":  "DAL.cat",
+                      "size":  13580
+                  },
+                  {
+                      "name":  "DAL.inf",
+                      "size":  4474
+                  },
+                  {
+                      "name":  "JHI.dll",
+                      "size":  273936
+                  },
+                  {
+                      "name":  "JHI64.dll",
+                      "size":  338968
+                  },
+                  {
+                      "name":  "jhi_service.exe",
+                      "size":  630288
+                  },
+                  {
+                      "name":  "SpoolerApplet.dalp",
+                      "size":  67714
+                  },
+                  {
+                      "name":  "TEEManagement.dll",
+                      "size":  261248
+                  },
+                  {
+                      "name":  "TEEManagement64.dll",
+                      "size":  323088
+                  }
+              ],
+    "driverver":  "03/31/2024 1.46.2024.221"
+}
