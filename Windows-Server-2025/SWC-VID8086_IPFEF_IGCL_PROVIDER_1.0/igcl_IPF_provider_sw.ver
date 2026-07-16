@@ -1,0 +1,8 @@
+DriverVer=08/05/2025 16.1.0.257
+Provider=Intel
+Class=SoftwareComponent
+Published=oem26.inf
+Original=igcl_ipf_provider_sw.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\igcl_ipf_provider_sw.inf_amd64_4a41ffeba2dc67d0
+PackageMB=0.82
+CachedUtc=2026-07-16T07:47:57.5238164Z
