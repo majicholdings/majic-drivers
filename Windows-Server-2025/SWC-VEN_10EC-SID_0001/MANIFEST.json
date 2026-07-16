@@ -1,0 +1,59 @@
+{
+    "totalMB":  10.06,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_434f4faf6aa034b3",
+    "files":  [
+                  {
+                      "name":  "MonoSeparationEnrollDll.dll",
+                      "size":  902624
+                  },
+                  {
+                      "name":  "PTTdll.dll",
+                      "size":  225240
+                  },
+                  {
+                      "name":  "RealtekService.cat",
+                      "size":  30830
+                  },
+                  {
+                      "name":  "realtekservice.inf",
+                      "size":  31408
+                  },
+                  {
+                      "name":  "realtekservice.PNF",
+                      "size":  53156
+                  },
+                  {
+                      "name":  "RtCOM64.dll",
+                      "size":  1136872
+                  },
+                  {
+                      "name":  "RtDataProc64.dll",
+                      "size":  523240
+                  },
+                  {
+                      "name":  "RtkApi64U.dll",
+                      "size":  902128
+                  },
+                  {
+                      "name":  "RtkAudUService64.exe",
+                      "size":  2389992
+                  },
+                  {
+                      "name":  "RtkAudUServiceConf64.dll",
+                      "size":  49128
+                  },
+                  {
+                      "name":  "RtkAudUServiceRes64.dll",
+                      "size":  2709480
+                  },
+                  {
+                      "name":  "RtkCfg64.dll",
+                      "size":  199152
+                  },
+                  {
+                      "name":  "SpeakerVerfDll.dll",
+                      "size":  1394160
+                  }
+              ],
+    "driverver":  "12/26/2024 1.0.818.0"
+}
