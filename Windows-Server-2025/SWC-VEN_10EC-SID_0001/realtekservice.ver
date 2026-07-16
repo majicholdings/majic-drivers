@@ -1,0 +1,8 @@
+DriverVer=12/26/2024 1.0.818.0
+Provider=Realtek
+Class=SoftwareComponent
+Published=oem63.inf
+Original=realtekservice.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_434f4faf6aa034b3
+PackageMB=10.06
+CachedUtc=2026-07-16T07:48:02.5693137Z
