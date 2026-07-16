@@ -1,0 +1,8 @@
+DriverVer=08/01/2024 1.74.210.0
+Provider=Intel
+Class=SoftwareComponent
+Published=oem11.inf
+Original=iclsclient.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_c25dbc60ad3b371a
+PackageMB=31.45
+CachedUtc=2026-07-16T07:53:13.9587006Z
