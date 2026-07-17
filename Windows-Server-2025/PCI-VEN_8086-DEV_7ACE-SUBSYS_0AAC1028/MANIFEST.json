@@ -1,19 +1,15 @@
 {
-    "totalMB":  0.23,
-    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\ialpss2_i2c_adl.inf_amd64_bf2893ea319d70a7",
+    "totalMB":  0.03,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-ssystemlpss.inf_amd64_83277bd8dd9068fb",
     "files":  [
                   {
-                      "name":  "iaLPSS2_I2C_ADL.cat",
-                      "size":  15775
+                      "name":  "AlderLakePCH-S.cat",
+                      "size":  19715
                   },
                   {
-                      "name":  "iaLPSS2_I2C_ADL.inf",
-                      "size":  13242
-                  },
-                  {
-                      "name":  "iaLPSS2_I2C_ADL.sys",
-                      "size":  212944
+                      "name":  "AlderLakePCH-SSystemLPSS.inf",
+                      "size":  6862
                   }
               ],
-    "driverver":  "07/30/2025 30.100.2531.31"
+    "driverver":  "07/18/1968 10.1.37.7"
 }
