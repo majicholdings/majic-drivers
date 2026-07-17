@@ -1,0 +1,8 @@
+DriverVer=07/18/1968 10.1.37.7
+Provider=INTEL
+Class=System
+Published=oem5.inf
+Original=alderlakepch-ssystem.inf
+SourceDriverStore=C:\Windows\System32\DriverStore\FileRepository\alderlakepch-ssystem.inf_amd64_2d3c87d4553e8e1f
+PackageMB=0.03
+CachedUtc=2026-07-17T06:33:54.9221252Z
