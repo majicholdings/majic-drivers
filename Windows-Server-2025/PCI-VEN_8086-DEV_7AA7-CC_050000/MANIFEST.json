@@ -1,0 +1,15 @@
+{
+    "totalMB":  0.03,
+    "source":  "C:\\Windows\\System32\\DriverStore\\FileRepository\\alderlakepch-ssystem.inf_amd64_2d3c87d4553e8e1f",
+    "files":  [
+                  {
+                      "name":  "AlderLakePCH-S.cat",
+                      "size":  19715
+                  },
+                  {
+                      "name":  "AlderLakePCH-SSystem.inf",
+                      "size":  16284
+                  }
+              ],
+    "driverver":  "07/18/1968 10.1.37.7"
+}
